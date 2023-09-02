@@ -10,7 +10,7 @@ const transportationOptions = [
   {
     question: "Araç ile Ulaşım",
     answer: [
-      `E5, TEM ve Kuzey Marmara otoyollarinin tam kesisme noktasinda bulunan Kemerburgaz Kent Ormani içindeki YBY WOODS Yasam ve Etkinlik Alani' na; kendi özel aracınla istanbul'un her yerinden kolaylıkla ulaşabilirsin.`,
+      `E5, TEM ve Kuzey Marmara otoyollarinin tam kesişme noktasında bulunan Kemerburgaz Kent Ormani içindeki YBY WOODS Yaşam ve Etkinlik Alanı’na kendi özel aracınla İstanbul'un her yerinden kolaylıkla ulaşabilirsin.`,
       `Kemerburgaz Kent Ormanı içerisinde, etkinlik alanının yakınında İki büyük otopark yer alıyor.`,
     ],
   },

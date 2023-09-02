@@ -69,7 +69,7 @@ export default function About() {
       </div>
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="py-0">
-          <div className="px-2 text-center">
+          <div className="px-2 text-center text-lg sm:text-xl">
             <p className="pb-4 font-extrabold">
               23-24 Eylül, Kemerburgaz Kent Ormanı YBY WOODS Yaşam ve Etkinlik
               Alanı

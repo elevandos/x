@@ -41,11 +41,11 @@ const people = [
     ],
   },
   {
-    name: "Dr. Ayşegül Çoruhlu",
-    role: "UZUN ÖMÜR UZMANI",
+    name: "Ayşegül Çoruhlu",
+    role: "ANTIAGING VE BİYOKİMYA UZMANI",
     imageUrl: speaker1,
     bio: [
-      `Uzun Ömür Uzmanı olarak tanınan ve sağlıklı yaşam alanındaki öncü isimler arasında yer alan Dr.Ayşegül Çoruhlu, 
+      `Uzun Ömür Uzmanı olarak tanınan ve sağlıklı yaşam alanındaki öncü isimler arasında yer alan Ayşegül Çoruhlu, 
     1994 yılında İstanbul Tıp Fakültesi’nden mezun oldu. Şişli Etfal Hastanesi’nde Biyokimya alanında eğitimini tamamlarken eş zamanlı olarak Biyomedikal Mühendisliği MasterProgramına iki yıl devam etti.`,
       `2000 yılında Amerikan Hastanesi’nde Biyokimya Uzmanı olarak çalışmaya başladıktan sonra, Intemed Polikliniği’nde Labarotuvar Şefi olarak kariyerine devam eden Dr. Çoruhlu; antioksidan, gıda duyarlılığı, 
     kişiye özel hormon ve genetik testleri gibi ileri anti-aging yaklaşımlarını ilk uygulayanhekimlerden biri olarak sağlıklı yaşamın olmazsa olmazı konular ile ilgili eczacılara ve doktorlara seminerler verdi.`,
@@ -54,7 +54,7 @@ const people = [
   },
   {
     name: "Berceste Şeber",
-    role: "SPOR PSİKOLOĞU",
+    role: "KLİNİK SPOR PSİKOLOĞU",
     imageUrl: speaker14,
     bio: [
       `Berceste Şeber, 2015 yılında Bahçeşehir Üniversitesi Psikoloji bölümünden yüksek onur derecesi ile mezun oldu. Ardından Bahçeşehir Üniversitesi Klinik Psikoloji yüksek lisans Programı’nı tamamlayarak Uzman Klinik Psikolog ünvanı ile çalışmalarını sürdürmeye başladı.`,
@@ -99,7 +99,7 @@ const people = [
   },
   {
     name: "Orçun Kürüm",
-    role: "DİYETİSYEN",
+    role: "UZMAN DİYETİSYEN",
     imageUrl: speaker10,
     bio: [
       `Orçun Kürüm, 2013 yılında ise Colorado’da Amerika’nın saygın kurumlarından “International Society of Sports Nutrition” sınavlarına katılarak bu kurumun onaylı sporcu beslenmesi uzmanı olmaya hak kazanan ilk Türk diyetisyendir. `,
@@ -108,21 +108,21 @@ const people = [
   },
   {
     name: "Ömer Yeşilbaş",
-    role: "DANSÇI VE KOREOGRAF",
+    role: "DANSFABRİKA KURUCUSU",
     imageUrl: OmerYesilbasImg,
-    bio: ["No Bio"],
+    bio: [""],
   },
   {
     name: "Özgür Tetik",
-    role: "ANTRENÖR",
+    role: "MERRELL TÜRKİYE HEAD COACH",
     imageUrl: OzgurTetikImg,
-    bio: ["No Bio"],
+    bio: [""],
   },
   {
     name: "Tuğba Danışmaz",
     role: "MİLLİ ATLET",
     imageUrl: TugbaDanismazImg,
-    bio: ["No Bio"],
+    bio: [""],
   },
   {
     name: "Tuğrul Çağrı Yılmazer",
@@ -160,11 +160,11 @@ const Speakers = () => {
       <div className="w-full overflow-hidden px-4 py-24 sm:px-0 sm:py-32 sm:pt-0">
         <div className="w-full py-24 sm:py-32 sm:pt-24">
           <h2 className="text-center text-4xl font-extrabold tracking-tight text-white ">
-            KONUŞMACILAR
-          </h2>
-          <h5 className="mt-2 text-center text-lg font-semibold tracking-tight text-white opacity-80 ">
             FESTİVALE İLHAM VERENLER
-          </h5>
+          </h2>
+          {/* <h5 className="mt-2 text-center text-lg font-semibold tracking-tight text-white opacity-80 ">
+            
+          </h5> */}
           <div className="mx-auto max-w-7xl">
             <ul
               role="list"

@@ -44,15 +44,15 @@ const eventData: DayData[] = [
         events: [
           {
             time: "09:30 - 11:00",
-            description: "UNDER ARMOUR ile Sabah Kosusu",
+            description: "Under Armour ile Sabah Koşusu",
           },
           {
             time: "14:30 - 15:15",
-            description: "Dans Fabrikasi ile Dans Atölyesi",
+            description: "DansFabrika ile Dans Atölyesi",
           },
           {
             time: "15:30 - 16:15",
-            description: "adidas ile Hit Workout by Ercan Tepe",
+            description: "adidas ile Hiit Workout by Ercan Tepe",
           },
           // Add more events here
         ],
@@ -72,17 +72,17 @@ const eventData: DayData[] = [
             time: "14.00 – 15.00",
             description: "21 Dakikada Ruh ve Beden Dengesi by Ece Vahapoğlu",
           },
-          {
-            time: "15.00 – 16.00",
-            description: "Pending Data",
-          },
+          // {
+          //   time: "15.00 – 16.00",
+          //   description: "Pending Data",
+          // },
           {
             time: "16.00 – 17.00",
-            description: "Mağaraya Giriş 101 by Tuğrul Yılmazer",
+            description: "Mağaraya Giriş 101 by Tuğrul Çağrı Yılmazer",
           },
           {
             time: "17.00 – 18.00",
-            description: "Marrel ile Ultra Sohbetler by Özgür Tetik",
+            description: "Merrell ile Ultra Sohbetler by Özgür Tetik ",
           },
           // Add more events here
         ],
@@ -108,11 +108,11 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 - 15.45",
-            description: "PUMA ile Cardio Workout by Atakan Işıktutan",
+            description: "Puma ile Cardio Workout by Atakan Işıktutan",
           },
           {
             time: "16.00 - 16.45",
-            description: "URBAN ACTIVE ile Kangoo Jump",
+            description: "Urban Active ile Kangoo Jump",
           },
           {
             time: "17.00 - 17.45",
@@ -193,7 +193,7 @@ const eventData: DayData[] = [
           },
           {
             time: "12.00 - 13.00",
-            description: "TIRTIL KIDS ile Imagination Atölyesi",
+            description: "Tırtıl Kids ile Imagination Atölyesi",
           },
           {
             time: "13.00 - 14.00",
@@ -205,7 +205,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 - 16.00",
-            description: "TIRTIL KIDS ile Imagination Atölyesi",
+            description: "Tırtıl Kids ile Imagination Atölyesi",
           },
           // Add more events here
         ],
@@ -215,20 +215,19 @@ const eventData: DayData[] = [
         events: [
           {
             time: "10:00 - 18:00",
-            description: "JOMA ile Zorbing Football",
+            description: "Joma ile Zorbing Football",
           },
           {
             time: "10:00 - 18:00",
-            description: "JOMA ile Dev Eller Basketbol",
+            description: "Joma ile Dev Eller Basketbol",
           },
           {
             time: "10:00 - 18:00",
-            description:
-              "DC ile Skate Park Kullanımı & Kaykay Akrobasi Showları",
+            description: "BoardridersTR Ekibiyle Kaykay Workshop",
           },
           {
             time: "10:00 - 18:00",
-            description: "Street Ball Turnuvası",
+            description: "Streetball Turnuvası",
           },
           {
             time: "10:00 - 18:00",
@@ -279,7 +278,7 @@ const eventData: DayData[] = [
           },
           {
             time: "14:30 - 15:30",
-            description: "PUMA ile Olimpiyat Yolculuğu by Tuğba Danışmaz",
+            description: "Puma ile Olimpiyat Yolculuğu by Tuğba Danışmaz",
           },
           {
             time: "15:30 - 16:30",
@@ -342,7 +341,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15.15 - 16.00",
-            description: "Ritim & Perküsyon",
+            description: "Ritim & Perküsyon Atölyesi",
           },
           {
             time: "16.15 - 17.00",
@@ -392,7 +391,7 @@ const eventData: DayData[] = [
           },
           {
             time: "12.00 - 13.00",
-            description: "TIRTIL KIDS ile Rigamagic Atölyesi",
+            description: "Tırtıl Kids ile Rigamajig Atölyesi",
           },
           {
             time: "13.00 - 14.00",
@@ -404,7 +403,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 - 16.00",
-            description: "Tırtıl Kids ile Rigamagic Atölyesi",
+            description: "Tırtıl Kids ile Rigamajig Atölyesi",
           },
           // Add more events here
         ],
@@ -414,24 +413,23 @@ const eventData: DayData[] = [
         events: [
           {
             time: "10:00 - 17:30",
-            description: "JOMA ile Zorbing Football",
+            description: "Joma ile Zorbing Football",
           },
           {
             time: "10:00 - 17:30",
-            description: "JOMA ile Dev Eller Basketbol",
+            description: "Joma ile Dev Eller Basketbol",
           },
           {
             time: "10:00 - 17:30",
-            description:
-              "DC ile Skate Park Kullanımı & Kaykay Akrobasi Showları",
+            description: "BoardridersTR Ekibiyle Kaykay Workshop",
           },
           {
             time: "10:00 - 17:30",
-            description: "Street Ball Turnuvası",
+            description: "Streetball Turnuvası",
           },
           {
             time: "10:00 - 17:30",
-            description: "Street Ball Finali",
+            description: "Streetball Finali",
           },
           {
             time: "10:00 - 17:30",
