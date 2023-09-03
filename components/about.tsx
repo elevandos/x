@@ -86,7 +86,7 @@ export default function About() {
                 gelen atölyelerin, dans, müzik ve sürpriz birçok farklı
                 deneyimin yer alacağı festivalde dinamizmi maksimum seviyede
                 yaşamak için 23-24 Eylül&apos;ü ajandanıza kaydedin! 
-                
+              </br>
                 Festivale ücretsiz katılım için detaylar çok yakında burada!
                 
               </p>
