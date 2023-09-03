@@ -229,8 +229,8 @@ const Speakers = () => {
               >
                 TIKLA!
               </a>
-            </h2> */}
-          </div>
+            </h2> 
+          </div>*/}
         </div>
       </div>
       <SectionDividerSpeakers />
