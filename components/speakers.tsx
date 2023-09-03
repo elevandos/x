@@ -219,7 +219,7 @@ const Speakers = () => {
             <div className="my-6 p-4 ">
               <Gallery />
             </div>
-            <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
+            {/* <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
               FESTİVAL MODASINI %10 İNDİRİMLE YAŞAMAK İÇİN{" "}
               <a
                 href="https://www.boyner.com.tr"
@@ -229,7 +229,7 @@ const Speakers = () => {
               >
                 TIKLA!
               </a>
-            </h2>
+            </h2> */}
           </div>
         </div>
       </div>
