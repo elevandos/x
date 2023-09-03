@@ -209,7 +209,7 @@ const Speakers = () => {
               ))}
             </ul>
           </div>
-          <div className="my-4 w-full pt-24">
+         {/*   <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
           </div>
           <div className="mx-auto max-w-7xl">
@@ -219,7 +219,7 @@ const Speakers = () => {
             <div className="my-6 p-4 ">
               <Gallery />
             </div>
-            {/* <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
+           <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
               FESTİVAL MODASINI %10 İNDİRİMLE YAŞAMAK İÇİN{" "}
               <a
                 href="https://www.boyner.com.tr"
