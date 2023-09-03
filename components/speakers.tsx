@@ -126,7 +126,7 @@ const people = [
   },
   {
     name: "Tuğrul Çağrı Yılmazer",
-    role: "FITNESS EĞİTMENİ",
+    role: "PERSONAL TRAINER",
     imageUrl: speaker12,
     bio: [
       `Life Fitness Academy Master Trainer’ı ve Asics Marka Elçisi Tuğrul Çağrı Yılmazer, “High Intensity Interval Training – Yüksek Yoğunluklu Aralıklı Antrenman” (HIIT) modelini; Taş Devri döneminde mağara adamının avlanma ritüeline benzetiyor. Hızlı kalori yakmak ve sağlıklı yaşamak isteyenlere etkili ve özgün antrenman önerileri sunuyor.`,
