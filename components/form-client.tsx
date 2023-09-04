@@ -132,7 +132,11 @@ const checkboxItems = [
           <DialogContent>
             <DialogHeader>
               <DialogTitle>BOYNER DYNAMIC FEST İNTERNET SİTESİ
-KULLANIM KOŞULLARI 
+              </DialogTitle>
+            </DialogHeader>
+            <DialogDescription>
+              <p>
+                KULLANIM KOŞULLARI 
 
 İNTERNET SİTEMİZİ KULLANMAYA BAŞLAMADAN ÖNCE LÜTFEN AŞAĞIDAKİ KULLANIM KOŞULLARININ TAMAMINI DİKKATLİCE OKUYUNUZ. HABER BÜLTENİ İNTERNET SİTESİ KULLANIM KOŞULLARINA DİLEDİĞİNİZ ZAMAN ANA SAYFADAN ULAŞABİLİRSİNİZ. 
 
@@ -207,12 +211,6 @@ Madde 9: Yürürlük ve Kullanım Koşulları Değişiklikleri
 İşbu Kullanım Koşulları, İnternet Sitesi’nde ilan edilir edilmez yürürlüğe girer. Boyner, ileride doğacak teknik zaruretler ve mevzuata uyum amacıyla yahut tamamen kendi takdirine bağlı ve tek taraflı olarak, uygun göreceği herhangi bir zamanda, işbu Kullanım Koşulları’nda değişiklik yapabilir veya yeni maddeler ilave edebilir. 
 
 Ziyaretçi, İnternet Sitesi’nde ilan edilen değişiklik ve güncellemeleri takip etmek zorundadır. 
-</DialogTitle>
-            </DialogHeader>
-            <DialogDescription>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Placeat, laudantium.
               </p>
             </DialogDescription>
           </DialogContent>
