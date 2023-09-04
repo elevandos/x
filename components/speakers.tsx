@@ -126,7 +126,7 @@ const people = [
   },
   {
     name: "Tuğrul Çağrı Yılmazer",
-    role: "PERSONAL TRAINER",
+    role: "FITNESS EĞİTMENİ",
     imageUrl: speaker12,
     bio: [
       `Life Fitness Academy Master Trainer’ı ve Asics Marka Elçisi Tuğrul Çağrı Yılmazer, “High Intensity Interval Training – Yüksek Yoğunluklu Aralıklı Antrenman” (HIIT) modelini; Taş Devri döneminde mağara adamının avlanma ritüeline benzetiyor. Hızlı kalori yakmak ve sağlıklı yaşamak isteyenlere etkili ve özgün antrenman önerileri sunuyor.`,
@@ -209,7 +209,7 @@ const Speakers = () => {
               ))}
             </ul>
           </div>
-         {/*   <div className="my-4 w-full pt-24">
+          <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
           </div>
           <div className="mx-auto max-w-7xl">
@@ -219,7 +219,7 @@ const Speakers = () => {
             <div className="my-6 p-4 ">
               <Gallery />
             </div>
-           <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
+            <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
               FESTİVAL MODASINI %10 İNDİRİMLE YAŞAMAK İÇİN{" "}
               <a
                 href="https://www.boyner.com.tr"
@@ -229,8 +229,8 @@ const Speakers = () => {
               >
                 TIKLA!
               </a>
-            </h2> 
-          </div>*/}
+            </h2>
+          </div>
         </div>
       </div>
       <SectionDividerSpeakers />
