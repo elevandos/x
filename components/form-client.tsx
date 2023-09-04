@@ -152,7 +152,16 @@ const checkboxItems = [
         Tarafıma şirketiniz ve{" "}
         <a href="#" className="underline">
           Boyner Grubu Şirketleri
-        </a>{" "}
+        </a>{"Ticari İletişim İzni
+Boyner Büyük Mağazacılık A.Ş.
+Ticari İletişime ve Kişisel Verilerin İşlenmesine İlişkin
+Açık Rıza/İzin Beyanı
+ 
+6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında benimle paylaşılan, https://www.boyner.com.tr/content/kisisel-verilerin-korunmasina-iliskin-aydinlatma-metni  bağlantısından veya Boyner mobil uygulaması üzerinden her zaman ulaşabileceğim ‘Boyner Müşteri, Üye ve Ziyaretçi Kişisel Verilerinin Korunmasına İlişkin Aydınlatma Metni’nde detaylı olarak açıklandığı şekilde,
+ 
+Boyner Büyük Mağazacılık A.Ş., Boyner Grubu Şirketleri (Boyner Holding A.Ş. bünyesindeki Boyner Grubu Şirketleri; Altınyıldız Tekstil ve Konfeksiyon A.Ş., BR Mağazacılık Ticaret A.Ş., BNR Teknoloji A.Ş. ve Boyner Holding A.Ş.'ye bağlı diğer şirketleri ile mevcut-müstakbel iştirakleridir.) tarafından yürütülen; kampanyalar, avantajlar, ürün ve hizmet tanıtımları, anket çalışmaları, promosyonlar, reklamlar, yarışmalar, çekilişler, davet, açılış ve diğer etkinliklere ilişkin davetlerin iletilmesine, pazarlama faaliyetleri kapsamında güncel iletişim bilgilerim üzerinden bana yönelik ticari iletişim faaliyetlerinde bulunulmasına, tarafıma ticari ileti gönderilmesine, bu amaçlarla iletişim ve kimlik verilerimin işlenmesine, bu metinde ticari unvanları yer alan şirketlerle paylaşılmasına açık rıza veriyorum.
+
+"}
         ticari elektronik ileti gönderilmesi için burada da belirtilen iznim
         vardır.
       </>
