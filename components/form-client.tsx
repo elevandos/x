@@ -131,11 +131,13 @@ const checkboxItems = [
           </DialogTrigger>
           <DialogContent>
             <DialogHeader>
-              <DialogTitle>BOYNER DYNAMIC FEST İNTERNET SİTESİ
-              </DialogTitle>
+              <DialogTitle>Açık rıza Metni</DialogTitle>
             </DialogHeader>
             <DialogDescription>
-              <p>         </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Placeat, laudantium.
+              </p>
             </DialogDescription>
           </DialogContent>
         </Dialog>
@@ -150,7 +152,7 @@ const checkboxItems = [
         Tarafıma şirketiniz ve{" "}
         <a href="#" className="underline">
           Boyner Grubu Şirketleri
-        </a>{"Boyner Grup Şirketleri"}
+        </a>{" "}
         ticari elektronik ileti gönderilmesi için burada da belirtilen iznim
         vardır.
       </>
