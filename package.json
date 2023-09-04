@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@hookform/resolvers": "^3.3.0",
+    "@mrodrig/json-2-csv-cli": "^4.1.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
     "@radix-ui/react-checkbox": "^1.0.4",
@@ -31,12 +32,15 @@
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
     "lucide-react": "^0.268.0",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
     "next": "13.4.19",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-countdown": "^2.3.5",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.45.4",
+    "sweetalert2": "^11.7.27",
     "swiper": "^10.2.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
@@ -45,7 +49,9 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
+    "@types/sanitize-html": "^2.9.0",
     "prettier": "^3.0.2",
-    "prettier-plugin-tailwindcss": "^0.5.3"
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "sanitize-html": "^2.11.0"
   }
 }
