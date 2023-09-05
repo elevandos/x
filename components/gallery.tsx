@@ -1,4 +1,4 @@
-{/*"use client";
+"use client";
 import Image from "next/image";
 import Boyner1 from "@/public/gallery/festival-modasi-1.jpg";
 import Boyner2 from "@/public/gallery/festival-modasi-2.jpg";
@@ -62,4 +62,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;*/}
+export default Gallery;
