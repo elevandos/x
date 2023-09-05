@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
+import { useToast } from "@/components/ui/use-toast";
 import Image from "next/image";
 import DiynamicFestLogo from "@/public/assets//kit/calisma-yuzeyi-12.png";
 
@@ -57,7 +58,8 @@ export function ProfileForm() {
   });
 }
 // 2. Define a submit handler.
-const handleSubmit = (e: any) => {
+const handleSubmit = async (e: any) => {
+  const { toast } = useToast();
   e.preventDefault();
   let username = e.target.username.value;
   let phone = e.target.phone.value;
@@ -70,7 +72,11 @@ const handleSubmit = (e: any) => {
     email === "" ||
     privacyPolicy === false
   ) {
-    alert("Lütfen tüm alanları doldurunuz.");
+    toast({
+      title: "Hata!",
+      description: "Lütfen tüm alanları doldurunuz.",
+      variant: "destructive",
+    });
     return false;
   }
 
@@ -81,30 +87,33 @@ const handleSubmit = (e: any) => {
     privacyPolicy,
   };
 
-  fetch("/api/download", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  })
-    .then((res) => {
-      Swal.fire({
-        title: "Başarılı!",
-        text: "Form başarıyla gönderildi.",
-        icon: "success",
-        showConfirmButton: false,
-        timer: 1500,
-      }).then(() => {
-        e.target.username.value = "";
-        e.target.phone.value = "";
-        e.target.email.value = "";
-        e.target.reset();
-      });
-    })
-    .catch((err) => {
-      alert("Form gönderilirken bir hata oluştu.");
+  try {
+    const res = await fetch("/api/download", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
     });
+
+    if (!res.ok) throw new Error("Form submission failed");
+
+    toast({
+      title: "Başarılı!",
+      description: "Form başarıyla gönderildi.",
+    });
+
+    e.target.username.value = "";
+    e.target.phone.value = "";
+    e.target.email.value = "";
+    e.target.reset();
+  } catch (err) {
+    toast({
+      title: "Hata!",
+      description: "Form gönderilirken bir hata oluştu.",
+      variant: "destructive",
+    });
+  }
 };
 function ShapeDividerTop() {
   return (
