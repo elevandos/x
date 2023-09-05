@@ -130,7 +130,7 @@ export default function Example() {
               layout="fill"
             />
           </SwiperSlide>
-          {/*   <SwiperSlide>
+         <SwiperSlide>
             <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={HeroImage}
@@ -138,7 +138,7 @@ export default function Example() {
               layout="fill"
             />
           </SwiperSlide>
-          <SwiperSlide>
+         {/*     <SwiperSlide>
             <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={HeroImage}
