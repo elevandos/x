@@ -209,9 +209,9 @@ const Speakers = () => {
               ))}
             </ul>
           </div>
-          <div className="my-4 w-full pt-24">
+          {/* <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
-          </div>
+          </div> */}
           {/* <div className="mx-auto max-w-7xl">
             <h2 className="text-center text-4xl font-extrabold tracking-tight text-white ">
               FESTİVAL MODASI
