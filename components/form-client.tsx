@@ -1,6 +1,6 @@
 "use client";
-
 import { zodResolver } from "@hookform/resolvers/zod";
+import React, { useState } from "react";
 import { useForm, UseFormReturn } from "react-hook-form";
 import Link from "next/link";
 import Swal from "sweetalert2";
@@ -878,6 +878,38 @@ function RenderCheckboxes() {
 }
 export function InputForm() {
   const form = useForm<z.infer<typeof formSchema>>();
+  const [usernameErrorMessage, setUsernameErrorMessage] = useState("");
+  const [phoneErrorMessage, setPhoneErrorMessage] = useState("");
+  const [emailErrorMessage, setEmailErrorMessage] = useState("");
+
+  const validateUsername = (value: string) => {
+    if (value.length === 0) {
+      setUsernameErrorMessage("Lütfen adınızı giriniz.");
+    } else if (/[\d!@#$%^&*()\-=\[\]{};:'",.<>/?\\|_~`]/.test(value)) {
+      setUsernameErrorMessage("Lütfen geçerli bir ad giriniz.");
+    } else {
+      setUsernameErrorMessage("");
+    }
+  };
+
+  const validatePhone = (value: string) => {
+    if (/[a-zA-Z]/.test(value) || value.length < 10) {
+      setPhoneErrorMessage("Lütfen Geçerli bir Telefon Numarası Giriniz.");
+    } else {
+      setPhoneErrorMessage("");
+    }
+  };
+
+  const emailSchema = z.string().email();
+
+  const validateEmail = (value: string) => {
+    const response = emailSchema.safeParse(value);
+    if (!response.success) {
+      setEmailErrorMessage("Geçerli Bir Email Giriniz");
+    } else {
+      setEmailErrorMessage("");
+    }
+  };
 
   return (
     <section className="relative bg-boyner-about">
@@ -909,6 +941,9 @@ export function InputForm() {
                             <Input
                               placeholder="Adın Soyadın"
                               {...field}
+                              onChange={(e) => {
+                                validateUsername(e.target.value);
+                              }}
                               required
                               maxLength={40}
                             />
@@ -917,6 +952,9 @@ export function InputForm() {
                         </FormItem>
                       )}
                     />
+                    <span className="text-xs text-red-500">
+                      {usernameErrorMessage}
+                    </span>
 
                     <FormField
                       control={form.control}
@@ -927,6 +965,12 @@ export function InputForm() {
                             <Input
                               placeholder="Cep Telefonun"
                               {...field}
+                              onBlur={(e) => {
+                                validatePhone(e.target.value);
+                              }}
+                              onFocus={(e) => {
+                                setPhoneErrorMessage("");
+                              }}
                               required
                               maxLength={13}
                             />
@@ -935,6 +979,9 @@ export function InputForm() {
                         </FormItem>
                       )}
                     />
+                    <span className="text-xs text-red-500">
+                      {phoneErrorMessage}
+                    </span>
                     <FormField
                       control={form.control}
                       name="email"
@@ -944,6 +991,12 @@ export function InputForm() {
                             <Input
                               placeholder="E-posta Adresin"
                               {...field}
+                              onBlur={(e) => {
+                                validateEmail(e.target.value);
+                              }}
+                              onFocus={(e) => {
+                                setEmailErrorMessage("");
+                              }}
                               required
                             />
                           </FormControl>
@@ -951,6 +1004,9 @@ export function InputForm() {
                         </FormItem>
                       )}
                     />
+                    <span className="text-xs text-red-500">
+                      {emailErrorMessage}
+                    </span>
                     <RenderCheckboxes />
                     <Button
                       type="submit"
