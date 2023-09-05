@@ -185,7 +185,7 @@ const eventData: DayData[] = [
         ],
       },
       {
-        stageName: "KIDS ZONE",
+        stageName: "Kids Zone",
         events: [
           {
             time: "11.00-12.00",
@@ -383,7 +383,7 @@ const eventData: DayData[] = [
         ],
       },
       {
-        stageName: "KIDS ZONE",
+        stageName: "Kids Zone",
         events: [
           {
             time: "11.00-12.00",
