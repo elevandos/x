@@ -212,7 +212,7 @@ const Speakers = () => {
           <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
           </div>
-          <div className="mx-auto max-w-7xl">
+          {/* <div className="mx-auto max-w-7xl">
             <h2 className="text-center text-4xl font-extrabold tracking-tight text-white ">
               FESTİVAL MODASI
             </h2>
@@ -230,7 +230,7 @@ const Speakers = () => {
                 TIKLA!
               </a>
             </h2>
-          </div>
+          </div> */}
         </div>
       </div>
       <SectionDividerSpeakers />
