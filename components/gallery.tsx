@@ -22,8 +22,6 @@ const Gallery = () => {
         <Swiper
           loop={true}
           spaceBetween={30}
-          navigation
-          modules={[Navigation]}
           breakpoints={{
             1280: {
               slidesPerView: 2,
@@ -35,31 +33,14 @@ const Gallery = () => {
           className="mySwiper"
         >
           <SwiperSlide style={{ width: "100%", minWidth: "300px" }}>
-          <Image
+            <Image
               className="object-contain"
               style={{ objectFit: "fill" }}
               alt="Boyner Dynamic Fest"
               src={Boyner1}
             />
+          </SwiperSlide>
            </Swiper>
-           <SwiperSlide style={{ width: "100%", minWidth: "300px" }}>
-            <Image
-              className="object-contain"
-              style={{ objectFit: "fill" }}
-              alt="Boyner Dynamic Fest"
-              src={Boyner2}
-            />
-          </SwiperSlide>
-          <SwiperSlide style={{ width: "100%", minWidth: "300px" }}>
-            <Image
-              className="object-contain"
-              style={{ objectFit: "fill" }}
-              alt="Boyner Dynamic Fest"
-              src={Boyner3}
-            />
-          </SwiperSlide>
-		  
-		     <SwiperSlide style={{ width: "100%", minWidth: "300px" }}>
       </div>
     </>
   );
