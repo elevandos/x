@@ -17,7 +17,7 @@ export default function Home() {
       <Countdown />
       <Agenda />
       <Speakers />
-     {/*  <Sponsor />*/}
+      <Sponsor />
       {/* <Form /> */}
       <FAQ />
       <Transportation />
