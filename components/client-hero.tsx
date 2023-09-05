@@ -121,34 +121,10 @@ export default function Example() {
         </Dialog>
       </header>
       <div className="relative isolate mb-4 mt-6 h-80 overflow-hidden pt-14 sm:h-[50vh] md:mb-0 lg:h-screen">
-        <Swiper modules={[Navigation]} navigation>
+        <Swiper>
           <SwiperSlide>
             <Image
               className="absolute inset-0 h-full w-full"
-              src={HeroImage}
-              alt="hero"
-              layout="fill"
-            />
-          </SwiperSlide>
-         <SwiperSlide>
-            <Image
-              className="absolute inset-0 h-full w-full object-cover"
-              src={HeroImage}
-              alt="hero"
-              layout="fill"
-            />
-          </SwiperSlide>
-                   <SwiperSlide>
-            <Image
-              className="absolute inset-0 h-full w-full object-cover"
-              src={HeroImage}
-              alt="hero"
-              layout="fill"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              className="absolute inset-0 h-full w-full object-cover"
               src={HeroImage}
               alt="hero"
               layout="fill"
