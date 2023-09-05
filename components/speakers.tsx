@@ -209,7 +209,7 @@ const Speakers = () => {
               ))}
             </ul>
           </div>
-          <div className="my-4 w-full pt-24">
+    {/*        <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
           </div>
           <div className="mx-auto max-w-7xl">
@@ -230,7 +230,7 @@ const Speakers = () => {
                 TIKLA!
               </a>
             </h2>
-          </div>
+          </div>*/}
         </div>
       </div>
       <SectionDividerSpeakers />
