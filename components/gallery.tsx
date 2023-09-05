@@ -42,22 +42,6 @@ const Gallery = () => {
               src={Boyner1}
             />
           </SwiperSlide>
-          <SwiperSlide style={{ width: "100%", minWidth: "300px" }}>
-            <Image
-              className="object-contain"
-              style={{ objectFit: "fill" }}
-              alt="Boyner Dynamic Fest"
-              src={Boyner2}
-            />
-          </SwiperSlide>
-          <SwiperSlide style={{ width: "100%", minWidth: "300px" }}>
-            <Image
-              className="object-contain"
-              style={{ objectFit: "fill" }}
-              alt="Boyner Dynamic Fest"
-              src={Boyner3}
-            />
-          </SwiperSlide>
         </Swiper>
       </div>
     </>
