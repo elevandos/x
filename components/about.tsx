@@ -91,7 +91,7 @@ export default function About() {
             </div>
             <p>
             Festivale ücretsiz katılım için detaylar çok yakında burada!
-             <br/>
+             <br/> <br/>
             </p>
             {/* <div>
               <h1 className=" inset-0 flex items-center justify-center text-xl font-extrabold md:text-2xl lg:text-3xl">
