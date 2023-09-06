@@ -87,11 +87,11 @@ export default function About() {
                 deneyimin yer alacağı festivalde dinamizmi maksimum seviyede
                 yaşamak için 23-24 Eylül&apos;ü ajandanıza kaydedin!
                 <br/>
-                Festivale ücretsiz katılım için detaylar çok yakında burada!
-              </p>
+                </p>
             </div>
             <p>
             Festivale ücretsiz katılım için detaylar çok yakında burada!
+             <br/>
             </p>
             {/* <div>
               <h1 className=" inset-0 flex items-center justify-center text-xl font-extrabold md:text-2xl lg:text-3xl">
