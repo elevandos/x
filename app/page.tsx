@@ -18,7 +18,7 @@ export default function Home() {
       <Agenda />
       <Speakers />
       <Sponsor />
-      <Form />
+      {{/* <Form /> */}
       <FAQ />
       <Transportation />
       <Footer />
