@@ -79,10 +79,6 @@ const faqs = [
     answer: `Festival süresince istersen dışarıdan kendi yiyeceğini veya içeceğini getirebilirsin.`,
   },
   {
-    question: `Yanımda profesyonel ses ve görüntü araçları ve ekipmanları (video kamera, fotoğraf makinası, go pro vb.) getirebilir miyim?`,
-    answer: `Evet, getirebilirsin.`,
-  },
-  {
     question: `Festivalde sağlık ekibi bulunacak mı? Tıbbi yardıma ihtiyacım olursa ne yapmalıyım?`,
     answer: `Festival süresince alanda ilk yardım alanı, sağlık ekibi ve ambulansı hazır bulunduracağız. Acil tıbbi müdahale için alandaki güvenlik görevlilerinden yardım talep etmeni rica ediyoruz.`,
   },
