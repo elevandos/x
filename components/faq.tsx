@@ -112,6 +112,10 @@ const faqs = [
     question: `Festival alanında alkol satışı olacak mı?`,
     answer: `Festival alanında herhangi bir alkol satışı olmayacak.`,
   },
+  {
+    question: `Üyeliğimi sonlandırmak ve hesabımı kapatmak için ne yapmalıyım?`,
+    answer: `Hesabını kapatmak için kvkk@boyner.com.tr adresine talebini ve hesap bilgilerini içeren bir e-posta atabilirsin.`,
+  },
 ];
 
 const FAQ = () => {
