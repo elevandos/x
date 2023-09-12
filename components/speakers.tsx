@@ -101,7 +101,7 @@ const people = [
     name: "Kumsal Kurucu",
     role: "DİYETİSYEN",
     imageUrl: speaker8,
-    bio: ["Kumsal"],
+    bio: [""],
   },
   {
     name: "Orçun Kürüm",
