@@ -132,27 +132,27 @@ const eventData: DayData[] = [
             description: "Costa Coffee ile Gerçek Kahve Atölyesi",
           },
           {
-            time: "12.15-13.00",
+            time: "12.15 - 13.00",
             description: "Levi’s ile Kalem Çantası Kişiselleştirme",
           },
           {
-            time: "13.15-14.00",
+            time: "13.15 - 14.00",
             description: "Kahkaha Yogası by Özgür Çağlar Çelik",
           },
           {
-            time: "14.15-15.00",
+            time: "14.15 - 15.00",
             description: "Name It ile Geri Dönüştürülmüş Kağıttan Animal Helmet",
           },
           {
-            time: "15.15-16.00",
+            time: "15.15 - 16.00",
             description: "Ritim & Perküsyon Atölyesi",
           },
           {
-            time: "16.15-17.00",
+            time: "16.15 - 17.00",
             description: "Levi’s ile İleri Dönüştürülmüş Çanta Kişiselleştirme",
           },
           {
-            time: "17.15-17.45",
+            time: "17.15 - 17.45",
             description: "adidas ile String Art",
           },
           // Add more events here
@@ -402,7 +402,7 @@ const eventData: DayData[] = [
         stageName: "Kids Zone",
         events: [
           {
-            time: "12.00-18.00",
+            time: "12.00 - 18.00",
             description: "Skechers ile Gün Boyu Çocuk Aktiviteleri (Yüz Boyama, Eğlenceli Parkur Oyunlar)",
           },
           {
