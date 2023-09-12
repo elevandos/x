@@ -72,9 +72,9 @@ export default function Footer() {
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
-            <div key={item.name} className="pb-6" style={{ overflow: 'auto' }}>
+            <div key={item.name} className="pb-6">
               {item.name === "Kullanım Koşulları" ? (
-                <Dialog>
+                <Dialog  style={{ overflow: 'auto' }}>
                   <DialogTrigger>
                     <button className="text-sm leading-6 text-white hover:text-muted-foreground">
                       {item.name}
