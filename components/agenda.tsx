@@ -74,7 +74,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 – 15.45",
-            description: "Life Club ile Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
+            description: "LifeClub ile Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
           },
           // {
           //   time: "15.00 – 16.00",
@@ -192,7 +192,7 @@ const eventData: DayData[] = [
         stageName: "Kids Zone",
         events: [
           {
-            time: "12.00-18.00",
+            time: "12.00 - 18.00",
             description: "Skechers ile Gün Boyu Çocuk Aktiviteleri (Yüz Boyama, Eğlenceli Parkur Oyunlar)",
           },
           {
@@ -239,7 +239,7 @@ const eventData: DayData[] = [
           },
           {
             time: "10:00 - 18:00",
-            description: "BoardridersTR ve DC Katkılarıyla Ekibiyle Kaykay Workshop",
+            description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
             time: "10:00 - 18:00",
@@ -449,7 +449,7 @@ const eventData: DayData[] = [
           },
           {
             time: "10:00 - 17:30",
-            description: "BoardridersTR Ekibiyle Kaykay Workshop",
+            description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
             time: "10:00 - 17:30",
@@ -464,8 +464,12 @@ const eventData: DayData[] = [
             description: "Body Painting & Tattoo",
           },
           {
-            time: "19:00 - 19:00",
-            description: "Emu ile After Party",
+            time: "10:00 - 18:00",
+            description: "adidas ile Streetball Turnuvası",
+          },
+          {
+            time: "18:00 - 20:00",
+            description: "Emu ile After Party by DJ Furkan Kozanlı & Cihan Hatipoğlu",
           },
           // Add more events here
         ],
