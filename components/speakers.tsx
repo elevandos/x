@@ -89,7 +89,7 @@ const people = [
   },
   {
     name: "Esin Aksoy",
-    role: "İYİ YAŞAM DANIŞMANI",
+    role: "PERFORMANS ve İYİ YAŞAM DANIŞMANI",
     imageUrl: speaker9,
     bio: [
       `Kariyerine; NLP Koçu, Eğitmen ve Danışman olarak devam eden Esin Aksoy, 2001 yılında Yıldız Teknik Üniversitesi Matematik Mühendisliği Bölümü’nden mezun olduktan sonra birçok kurumda çalıştı. `,
