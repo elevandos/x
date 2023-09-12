@@ -235,7 +235,7 @@ const eventData: DayData[] = [
           },
           {
             time: "10:00 - 18:00",
-            description: "BoardridersTR Ekibiyle Kaykay Workshop",
+            description: "BoardridersTR ve DC Katkılarıyla Ekibiyle Kaykay Workshop",
           },
           {
             time: "10:00 - 18:00",
