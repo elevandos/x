@@ -3,6 +3,7 @@ import BoynerLogo from "@/public/boyner-logo-dark-bg.svg";
 import AppStoreLogo from "@/public/assets/kit/app-store-logo.png";
 import GooglePlayLogo from "@/public/assets/kit/google-play-logo.png";
 import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
+import React from "react";
 import {
   Dialog,
   DialogContent,
@@ -12,21 +13,41 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-const navigation = [
-<Dialog>
-  <DialogTrigger>
-    <a href="#">Kullanım Koşulları</a>
-  </DialogTrigger>
-  <DialogContent>
-    <DialogHeader>
-      <DialogTitle>Kullanım Koşulları</DialogTitle>
-    </DialogHeader>
-    <DialogDescription>
-      Lorem Ipsum Dolor
-    </DialogDescription>
-  </DialogContent>
-</Dialog>
-];
+export default function App() {
+  function openPopup() {
+    // Popup penceresini açmak için Dialog bileşenlerini kullanabilirsiniz.
+    Dialog.open();
+  }
+
+  function closePopup() {
+    // Popup penceresini kapatmak için Dialog bileşenlerini kullanabilirsiniz.
+    Dialog.close();
+  }
+
+  return (
+    <div>
+      <a href="#" onClick={openPopup}>
+        Kullanım Koşulları
+      </a>
+
+      <Dialog>
+        <DialogTrigger>
+          <a href="#">Kullanım Koşulları</a>
+        </DialogTrigger>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Kullanım Koşulları</DialogTitle>
+          </DialogHeader>
+          <DialogDescription>
+            Lorem Ipsum Dolor
+          </DialogDescription>
+          <button onClick={closePopup}>Kapat</button> {/* Kapat düğmesi */}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}
+
 
 const apps = [
   {
