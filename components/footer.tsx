@@ -71,7 +71,7 @@ export default function Footer() {
           className="flex justify-center space-x-3 text-xs tracking-tighter"
           aria-label="Footer"
         >
- {navigation.main.map((item) => (
+          {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               {item.name === "Kullanım Koşulları" ? (
                 <Dialog>
@@ -165,7 +165,7 @@ export default function Footer() {
     <br />
     <p>9.2. Ziyaretçi, İnternet Sitesi’nde ilan edilen değişiklik ve güncellemeleri takip etmek zorundadır. </p>
     <br />
-     </DialogDescription>
+      </DialogDescription>
                   </DialogContent>
                 </Dialog>
               ) : (
