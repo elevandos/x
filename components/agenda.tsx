@@ -137,7 +137,7 @@ const eventData: DayData[] = [
           },
           {
             time: "14.15-15.00",
-            description: "Geri Dönüştürülmüş Kağıttan Animal Helmet",
+            description: "Name It ile Geri Dönüştürülmüş Kağıttan Animal Helmet",
           },
           {
             time: "15.15-16.00",
@@ -349,7 +349,7 @@ const eventData: DayData[] = [
           },
           {
             time: "14.15 - 15.00",
-            description: "Neon Enerjisi Atölyesi",
+            description: "Jack&Jones ile Neon Enerjisi Atölyesi",
           },
           {
             time: "15.15 - 16.00",
