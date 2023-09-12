@@ -398,24 +398,36 @@ const eventData: DayData[] = [
         stageName: "Kids Zone",
         events: [
           {
-            time: "11.00-12.00",
-            description: "Arka Bahçede Bilim",
+            time: "12.00-18.00",
+            description: "Skechers ile Gün Boyu Çocuk Aktiviteleri (Yüz Boyama, Eğlenceli Parkur Oyunlar)",
           },
           {
             time: "12.00 - 13.00",
-            description: "Tırtıl Kids ile Rigamajig Atölyesi",
+            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+          },
+          {
+            time: "12.00 - 13.00",
+            description: "Tırtıl Kids ile Imagination Atölyesi",
           },
           {
             time: "13.00 - 14.00",
-            description: "Kids Dance",
+            description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
           },
           {
-            time: "14.00 - 15.00",
-            description: "Kids Yoga",
+            time: "15.00 - 15.40",
+            description: "Skechers ile Masal Tiyatrosu",
           },
           {
             time: "15.00 - 16.00",
-            description: "Tırtıl Kids ile Rigamajig Atölyesi",
+            description: "Tırtıl Kids ile Imagination Atölyesi",
+          },
+          {
+            time: "16.00 - 17.00",
+            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+          },
+          {
+            time: "17.00 - 18.00",
+            description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
           },
           // Add more events here
         ],
