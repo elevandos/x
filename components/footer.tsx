@@ -71,21 +71,20 @@ export default function Footer() {
           className="flex justify-center space-x-3 text-xs tracking-tighter"
           aria-label="Footer"
         >
-          {navigation.main.map((item) => (
+ {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
-             {item.name === "Kullanım Koşulları" ? (
-  <Dialog style={ width: '100%', height: '100%', overflow: 'auto' }>
-    <DialogTrigger>
-      <button className="text-sm leading-6 text-white hover:text-muted-foreground">
-        {item.name}
-      </button>
-    </DialogTrigger>
-    <DialogContent>
-      <DialogHeader>
-        <DialogTitle>Kullanım Koşulları</DialogTitle>
-      </DialogHeader>
-      <DialogDescription>
-                    
+              {item.name === "Kullanım Koşulları" ? (
+                <Dialog>
+                  <DialogTrigger>
+                    <button className="text-sm leading-6 text-white hover:text-muted-foreground">
+                      {item.name}
+                    </button>
+                  </DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>Kullanım Koşulları</DialogTitle>
+                    </DialogHeader>
+                    <DialogDescription>
     <strong>BOYNER DYNAMIC FEST İNTERNET SİTESİ KULLANIM KOŞULLARI</strong>
 
     <p>İNTERNET SİTEMİZİ KULLANMAYA BAŞLAMADAN ÖNCE LÜTFEN AŞAĞIDAKİ KULLANIM KOŞULLARININ TAMAMINI DİKKATLİCE OKUYUNUZ. HABER BÜLTENİ İNTERNET SİTESİ KULLANIM KOŞULLARINA DİLEDİĞİNİZ ZAMAN ANA SAYFADAN ULAŞABİLİRSİNİZ.</p>
@@ -166,18 +165,17 @@ export default function Footer() {
     <br />
     <p>9.2. Ziyaretçi, İnternet Sitesi’nde ilan edilen değişiklik ve güncellemeleri takip etmek zorundadır. </p>
     <br />
-    
-                   </DialogDescription>
-    </DialogContent>
-  </Dialog>
-) : (
-  <a
-    href={item.href}
-    className="text-sm leading-6 text-white hover:text-muted-foreground"
-  >
-    {item.name}
-  </a>
-)}
+     </DialogDescription>
+                  </DialogContent>
+                </Dialog>
+              ) : (
+                <a
+                  href={item.href}
+                  className="text-sm leading-6 text-white hover:text-muted-foreground"
+                >
+                  {item.name}
+                </a>
+              )}
             </div>
           ))}
         </nav>
