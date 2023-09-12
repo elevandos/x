@@ -40,24 +40,6 @@ const apps = [
     imageAlt: "App Gallery",
   },
 ];
-
-export default function Footer() {
-  // Popup için state
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [popupContent, setPopupContent] = useState("");
-
-  // Popup açma fonksiyonu
-  const openPopup = (content) => {
-    setPopupContent(content);
-    setIsPopupOpen(true);
-  };
-
-  // Popup kapatma fonksiyonu
-  const closePopup = () => {
-    setIsPopupOpen(false);
-    setPopupContent("");
-  };
-
   return (
     <footer className="relative flex flex-col justify-between space-y-10 bg-black">
       <div className="mx-auto flex max-w-7xl flex-col items-center space-y-10 overflow-hidden pt-32 sm:px-6 lg:px-8">
@@ -86,7 +68,6 @@ export default function Footer() {
               key={app.name}
               href={app.href}
               className="mb-2 text-sm leading-6 text-white hover:text-gray-900 cursor-pointer"
-              onClick={() => openPopup(app.name)} // Popup'ı açmak için tıklayın
             >
               <Image
                 src={app.imageSrc}
@@ -99,7 +80,7 @@ export default function Footer() {
         {/* Popup içeriği */}
         {isPopupOpen && (
           <Dialog>
-            <DialogTrigger onClick={closePopup}> {/* Popup'ı kapatmak için tıklayın */}
+            <DialogTrigger>
               <div className="fixed inset-0 z-50 bg-black bg-opacity-70"></div>
             </DialogTrigger>
             <DialogContent className="z-50">
@@ -107,8 +88,7 @@ export default function Footer() {
                 <DialogTitle>{popupContent}</DialogTitle>
               </DialogHeader>
               <DialogDescription>
-                {/* Popup içeriği buraya gelir */}
-                Örnek içerik: Detaylar ve açıklamalar burada yer alır.
+                Kullanım Koşulları Örnek Metni
               </DialogDescription>
             </DialogContent>
           </Dialog>
