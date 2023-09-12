@@ -160,7 +160,7 @@ const Speakers = () => {
       <div className="w-full overflow-hidden px-4 py-24 sm:px-0 sm:py-32 sm:pt-0">
         <div className="w-full py-24 sm:py-32 sm:pt-24">
           <h2 className="text-center text-4xl font-extrabold tracking-tight text-white ">
-            FESTİVALE İLHAM VERENLER
+            FESTİVALİN İLHAM VEREN KONUŞMACILARI
           </h2>
           {/* <h5 className="mt-2 text-center text-lg font-semibold tracking-tight text-white opacity-80 ">
             
