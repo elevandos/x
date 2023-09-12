@@ -7,7 +7,13 @@ import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
 const navigation = {
   main: [
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
-    // { name: "Kullanım Koşulları", href: "#" },
+    { name: "Kullanım Koşulları" bio:
+    [
+      `Kuzey Kanalı’nı yüzerek geçen en genç Türk sporcu ve ilk Türk kadın olan Milli Yüzücü Aysu Türkoğlu; 2 Mayıs 2001 tarihinde Bodrum'da dünyaya geldi. Ege Üniversitesi Spor Bilimleri Fakültesi Antrenörlük Bölümü’nde 3. Sınıf öğrencisi olarak öğrenimine devam eden milli sporcu, yüzmeye ablasından aldığı ilham ile 7 yaşında Bodrum Spor Yüzme Kulübü’nde başladı.`,
+      `14 yaşından itibaren yüzmenin açık su branşıyla başarılar elde etmeye devam eden Türkoğlu, profesyonel kariyerine katılmış olduğu uluslararası Aquamasters yüzme yarışmasında 6km’lik parkurda kadınlar klasman birincisi olarak başladı.`,
+      `Kuzey Kanalı’nı geçerek elde ettiği başarı sonrasında sıradaki hedefi “The Ocean 7” olarak belirledi. Kuzey Kanalı, Cook Boğazı, Moloka’ i Kanalı, İngiliz Kanalı (Manş Geçişi), Catalina Kanalı, Tsugaru Boğazı ve Cebelitarık Boğazı'nı içeren bu yeni hedef kapsamında; 11 saat 48 dakika ile dünyada bu etabı tamamlayan 22 sporcudan biri oldu. Bu başarıya imza atan tek Türk sporcu olarak Kuzey Kanalı’nı geçmeyi başaran Türkoğlu; “The Ocean 7” hedefi için yoğun antrenman programı ve çalışmalarına devam ediyor.`,
+    ],
+    },
   ],
 };
 
