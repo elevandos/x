@@ -38,7 +38,7 @@ export default function Footer() {
   // useState veya diğer istemci tarafı özelliklerini kullanacağınız yerleri işaretleyin.
   useClient(() => {
     // İstemci tarafında çalışacak kodları buraya ekleyin
-    const [isTermsDialogOpen, setIsTermsDialogOpen] = useState(false);
+    // Örnek olarak: const [isTermsDialogOpen, setIsTermsDialogOpen] = useState(false);
   });
 
   return (
