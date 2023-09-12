@@ -72,6 +72,10 @@ const eventData: DayData[] = [
             time: "14.00 – 15.00",
             description: "21 Dakikada Ruh ve Beden Dengesi by Ece Vahapoğlu",
           },
+          {
+            time: "15.00 – 15.45",
+            description: "Life Club jle Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
+          },
           // {
           //   time: "15.00 – 16.00",
           //   description: "Pending Data",
