@@ -14,7 +14,7 @@ import speaker12 from "@/public/assets/konuşmacılar/tugrul-cagri-yilmazer-konu
 import speaker13 from "@/public/assets/konuşmacılar/umut-gursoy-konusmaci-dynamic-fest.jpg";
 import speaker14 from "@/public/assets/konuşmacılar/beceste-seber-konusmaci-dynamic-fest.jpg";
 import TugbaDanismazImg from "@/public/assets/konuşmacılar/tugba-danismaz-konusmaci-dynamic-fest.jpg";
-import OmerYesilbasImg from "@/public/assets/konuşmacılar/omer-yesilbas-konusmaci-dynamic-fest-1.jpg";
+import OmerYesilbasImg from "@/public/assets/konuşmacılar/omer-yesilbas-konusmaci-dynamic-fest.jpg";
 import OzgurTetikImg from "@/public/assets/konuşmacılar/ozgur-tetik-konusmaci-dynamic-fest.jpg";
 
 import Flyer from "@/public/assets/kit/calisma-yuzeyi-10.png";
