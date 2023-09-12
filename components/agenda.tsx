@@ -217,7 +217,7 @@ const eventData: DayData[] = [
           },
           {
             time: "17.00 - 18.00",
-            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+            description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
           },
           // Add more events here
         ],
