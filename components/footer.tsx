@@ -5,7 +5,14 @@ import GooglePlayLogo from "@/public/assets/kit/google-play-logo.png";
 import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
 
 import { useClient } from 'react'; // Yeni eklenen import
-
+import {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 const navigation = {
   main: [
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
