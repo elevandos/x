@@ -29,11 +29,9 @@ import {
           <DialogDescription>
             Lorem Ipsum Dolor
           </DialogDescription>
-          <button onClick={closePopup}>Kapat</button> {/* Kapat düğmesi */}
         </DialogContent>
       </Dialog>
     </div>
-  );
 }
 
 
