@@ -239,7 +239,7 @@ const eventData: DayData[] = [
           },
           {
             time: "10:00 - 18:00",
-            description: "Streetball Turnuvası",
+            description: "adidas ile Streetball Turnuvası",
           },
           {
             time: "10:00 - 18:00",
@@ -458,6 +458,10 @@ const eventData: DayData[] = [
           {
             time: "10:00 - 17:30",
             description: "Body Painting & Tattoo",
+          },
+          {
+            time: "19:00 - 19:00",
+            description: "Emu ile After Party",
           },
           // Add more events here
         ],
