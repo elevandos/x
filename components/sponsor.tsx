@@ -81,7 +81,7 @@ const SponsorImages = [
   {
     name: "Name It",
     imageUrl: Nameit,
-    alt: "Name It",
+    alt: "NameIt",
   },
   {
     name: "Puma",
