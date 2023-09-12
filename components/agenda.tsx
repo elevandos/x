@@ -74,7 +74,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 – 15.45",
-            description: "Life Club jle Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
+            description: "Life Club ile Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
           },
           // {
           //   time: "15.00 – 16.00",
@@ -298,7 +298,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15:30 - 16:30",
-            description: "Asics ile Performans Beslenmesi by Orçun Kürüm",
+            description: "ASICS ile Performans Beslenmesi by Orçun Kürüm",
           },
           {
             time: "16:30 - 17:30",
