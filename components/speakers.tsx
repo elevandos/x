@@ -1,5 +1,5 @@
 import Image from "next/image";
-import speaker1 from "@/public/assets/konuşmacılar/aysegul-coruhlu-konusmaci-dynamic-fest.jpg";
+import speaker1 from "@/public/assets/konuşmacılar/aysegul-coruhlu-konusmaci-dynamic-fest-1.jpg";
 import speaker2 from "@/public/assets/konuşmacılar/aysu-duz-konusmaci-dynamic-fest.jpg";
 import speaker3 from "@/public/assets/konuşmacılar/aysu-turkoglu-konusmaci-dynamic-fest-1.jpg";
 import speaker4 from "@/public/assets/konuşmacılar/beyza-necip-konusmaci-dynamic-fest.jpg";
