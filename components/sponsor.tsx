@@ -14,6 +14,8 @@ import PumaLogo from "@/public/sponsor/puma-logo-dynamic-fest.jpg";
 import DCLogo from "@/public/sponsor/dc-logo-dynamic-fest.jpg";
 import EmuLogo from "@/public/sponsor/emu-logo-dynamic-fest.jpg";
 import MerrelLogo from "@/public/sponsor/merrell-logo-dynamic-fest.jpg";
+import JackJones from "@/public/sponsor/jack-jones-logo-dynamic-fest.jpg";
+import Nameit from "@/public/sponsor/name-it-logo-dynamic-fest.jpg";
 
 const SponsorImages = [
   {
@@ -47,6 +49,11 @@ const SponsorImages = [
     alt: "Emu",
   },
   {
+    name: "Jack Jones",
+    imageUrl: JackJones,
+    alt: "JackJones",
+  },
+  {
     name: "Joma",
     imageUrl: JomaLogo,
     alt: "Joma",
@@ -70,6 +77,11 @@ const SponsorImages = [
     name: "Merrel",
     imageUrl: MerrelLogo,
     alt: "Merrel",
+  },
+  {
+    name: "Name It",
+    imageUrl: Nameit,
+    alt: "Name It",
   },
   {
     name: "Puma",
