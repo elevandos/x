@@ -74,7 +74,7 @@ export default function Footer() {
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               {item.name === "Kullanım Koşulları" ? (
-               <Dialog style= width: '100%', height: '100%', overflow: 'auto' >
+                <Dialog style={{ width: '100%', height: '100%', overflow: 'auto' }}>
                   <DialogTrigger>
                     <button className="text-sm leading-6 text-white hover:text-muted-foreground">
                       {item.name}
