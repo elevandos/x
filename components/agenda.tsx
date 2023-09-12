@@ -112,7 +112,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 - 15.45",
-            description: "Puma ile Cardio Workout by Atakan Işıktutan",
+            description: "Puma ile Fonksiyonel Cardio Workout by İnanç Akbaş",
           },
           {
             time: "16.00 - 16.45",
