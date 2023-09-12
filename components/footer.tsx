@@ -17,7 +17,7 @@ const navigation = {
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
   ],
   {
-  bio: [`K`,     
+  bio: [`Ka`,     
    ]
   }
 };
