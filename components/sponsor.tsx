@@ -15,7 +15,7 @@ import DCLogo from "@/public/sponsor/dc-logo-dynamic-fest.jpg";
 import EmuLogo from "@/public/sponsor/emu-logo-dynamic-fest.jpg";
 import MerrelLogo from "@/public/sponsor/merrell-logo-dynamic-fest.jpg";
 import JackJones from "@/public/sponsor/jack-jones-logo-dynamic-fest.jpg";
-import Nameit from "@/public/sponsor/name-it-logo-dynamic-fest.jpg";
+import Nameit from "@/public/sponsor/name-it-dynamic-fest.jpg";
 
 const SponsorImages = [
   {
@@ -81,7 +81,7 @@ const SponsorImages = [
   {
     name: "Name It",
     imageUrl: Nameit,
-    alt: "NameIt",
+    alt: "Nameit",
   },
   {
     name: "Puma",
