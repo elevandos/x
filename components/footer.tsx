@@ -12,15 +12,35 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-const navigation = {
-  main: [
-    { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
-  ],
-  {
-  bio: [`Ka`,     
-   ]
-  }
-};
+const navigation = [
+    {
+    id: "terms3",
+    name: "privacyPolicy",
+    label: (
+      <>
+        <Dialog>
+          <DialogTrigger>
+            Tarafıma şirketiniz ve{" "}
+            <a className="mr-1 cursor-pointer underline">
+              Boyner Grubu Şirketleri
+            </a>{" "}
+          </DialogTrigger>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Boyner Grubu Şirketleri</DialogTitle>
+            </DialogHeader>
+            <DialogDescription>
+              <p className="mb-4">
+                Boyner Grup Şirketleri; Boyner Büyük Mağazacılık A.Ş.,
+                Altınyıldız Tekstil ve Konfeksiyon A.Ş., BR Mağazacılık Ticaret
+                A.Ş. ve BNR Teknoloji A.Ş. gibi Boyner Holding A.Ş.’ne bağlı
+                şirketler ile mevcut – müstakbel diğer iştirakleridir.
+              </p>
+            </DialogDescription>
+          </DialogContent>
+        </Dialog>
+      },
+];
 
 const apps = [
   {
