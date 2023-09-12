@@ -1,24 +1,22 @@
-import React, { useState } from "react";
 import Image from "next/image";
 import BoynerLogo from "@/public/boyner-logo-dark-bg.svg";
 import AppStoreLogo from "@/public/assets/kit/app-store-logo.png";
 import GooglePlayLogo from "@/public/assets/kit/google-play-logo.png";
 import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
-
-// İlgili bileşenleri içe aktarın
+import { useState } from 'react'; // useState ekleyin
 import {
   Dialog,
   DialogTrigger,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogDescription,
 } from "@/components/ui/dialog";
 
 const navigation = {
   main: [
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
-    // { name: "Kullanım Koşulları", href: "#" },
+    { name: "Kullanım Koşulları", href: "#" },
   ],
 };
 
@@ -44,8 +42,21 @@ const apps = [
 ];
 
 export default function Footer() {
-  // Kullanım Koşulları popup'ını açmak için bir state kullanalım
-  const [isTermsDialogOpen, setIsTermsDialogOpen] = useState(false);
+  // Popup için state
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [popupContent, setPopupContent] = useState("");
+
+  // Popup açma fonksiyonu
+  const openPopup = (content) => {
+    setPopupContent(content);
+    setIsPopupOpen(true);
+  };
+
+  // Popup kapatma fonksiyonu
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    setPopupContent("");
+  };
 
   return (
     <footer className="relative flex flex-col justify-between space-y-10 bg-black">
@@ -53,13 +64,29 @@ export default function Footer() {
         <div className="mb-16 flex items-center justify-center p-2">
           <Image src={BoynerLogo} alt="" className="h-auto w-64 lg:w-96" />
         </div>
-        {/* Uygulama indirme bağlantıları */}
+        <nav
+          className="flex justify-center space-x-3 text-xs tracking-tighter"
+          aria-label="Footer"
+        >
+          {navigation.main.map((item) => (
+            <div key={item.name} className="pb-6">
+              <a
+                href={item.href}
+                className="text-sm leading-6 text-white hover:text-muted-foreground"
+              >
+                {item.name}
+              </a>
+            </div>
+          ))}
+        </nav>
+        {/* Uygulama bağlantıları */}
         <div className="flex flex-wrap justify-center space-x-6 p-2">
           {apps.map((app) => (
             <a
               key={app.name}
               href={app.href}
-              className="mb-2 text-sm leading-6 text-white hover:text-gray-900"
+              className="mb-2 text-sm leading-6 text-white hover:text-gray-900 cursor-pointer"
+              onClick={() => openPopup(app.name)} // Popup'ı açmak için tıklayın
             >
               <Image
                 src={app.imageSrc}
@@ -69,68 +96,24 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        {/* Ana navigasyon menüsü */}
-        <nav
-          className="flex justify-center space-x-3 text-xs tracking-tighter"
-          aria-label="Footer"
-        >
-          {navigation.main.map((item) => (
-            <div key={item.name} className="pb-6">
-              {item.name === "Kullanım Koşulları" ? (
-                <Dialog>
-                  <DialogTrigger>
-                    <button
-                      className="text-sm leading-6 text-white hover:text-muted-foreground"
-                      onClick={() => setIsTermsDialogOpen(true)} // Popup'ı açmak için state'i güncelleyin
-                    >
-                      {item.name}
-                    </button>
-                  </DialogTrigger>
-                  <DialogContent>
-                    <DialogHeader>
-                      <DialogTitle>Kullanım Koşulları</DialogTitle>
-                    </DialogHeader>
-                    <DialogDescription>
-                      {/* Gerçek kullanım koşulları metnini buraya ekleyin */}
-                      Örnek Kullanım Koşulları metni.
-                    </DialogDescription>
-                  </DialogContent>
-                </Dialog>
-              ) : (
-                <a
-                  href={item.href}
-                  className="text-sm leading-6 text-white hover:text-muted-foreground"
-                >
-                  {item.name}
-                </a>
-              )}
-            </div>
-          ))}
-        </nav>
+        {/* Popup içeriği */}
+        {isPopupOpen && (
+          <Dialog>
+            <DialogTrigger onClick={closePopup}> {/* Popup'ı kapatmak için tıklayın */}
+              <div className="fixed inset-0 z-50 bg-black bg-opacity-70"></div>
+            </DialogTrigger>
+            <DialogContent className="z-50">
+              <DialogHeader>
+                <DialogTitle>{popupContent}</DialogTitle>
+              </DialogHeader>
+              <DialogDescription>
+                {/* Popup içeriği buraya gelir */}
+                Örnek içerik: Detaylar ve açıklamalar burada yer alır.
+              </DialogDescription>
+            </DialogContent>
+          </Dialog>
+        )}
       </div>
-
-      {/* Kullanım Koşulları popup'ını burada görüntüleyin */}
-      {isTermsDialogOpen && (
-        <Dialog>
-          <DialogTrigger>
-            <button
-              className="text-sm leading-6 text-white hover:text-muted-foreground"
-              onClick={() => setIsTermsDialogOpen(true)}
-            >
-              Kullanım Koşulları
-            </button>
-          </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
-              <DialogTitle>Kullanım Koşulları</DialogTitle>
-            </DialogHeader>
-            <DialogDescription>
-              {/* Gerçek kullanım koşulları metnini buraya ekleyin */}
-              Örnek Kullanım Koşulları metni.
-            </DialogDescription>
-          </DialogContent>
-        </Dialog>
-      )}
     </footer>
   );
 }
