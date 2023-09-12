@@ -85,9 +85,8 @@ export default function Footer() {
                       <DialogTitle>Kullanım Koşulları</DialogTitle>
                     </DialogHeader>
                     <DialogDescription>
-                      {/* Gerçek kullanım koşulları metnini buraya ekleyin */}
-                     BOYNER DYNAMIC FEST İNTERNET SİTESİ
-KULLANIM KOŞULLARI 
+                    `BOYNER DYNAMIC FEST İNTERNET SİTESİ`,
+`KULLANIM KOŞULLARI`, 
 
 İNTERNET SİTEMİZİ KULLANMAYA BAŞLAMADAN ÖNCE LÜTFEN AŞAĞIDAKİ KULLANIM KOŞULLARININ TAMAMINI DİKKATLİCE OKUYUNUZ. HABER BÜLTENİ İNTERNET SİTESİ KULLANIM KOŞULLARINA DİLEDİĞİNİZ ZAMAN ANA SAYFADAN ULAŞABİLİRSİNİZ. 
 
