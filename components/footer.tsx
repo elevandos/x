@@ -13,18 +13,6 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-export default function App() {
-  function openPopup() {
-    // Popup penceresini açmak için Dialog bileşenlerini kullanabilirsiniz.
-    Dialog.open();
-  }
-
-  function closePopup() {
-    // Popup penceresini kapatmak için Dialog bileşenlerini kullanabilirsiniz.
-    Dialog.close();
-  }
-
-  return (
     <div>
       <a href="#" onClick={openPopup}>
         Kullanım Koşulları
