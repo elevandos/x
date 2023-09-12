@@ -7,7 +7,7 @@ import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
 const navigation = {
   main: [
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
-    // { name: "Kullanım Koşulları", href: "#" },
+    { name: "Kullanım Koşulları", href: "#" },
   ],
 };
 
