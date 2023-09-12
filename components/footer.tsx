@@ -8,7 +8,17 @@ const navigation = {
   main: [
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
     { name: "Kullanım Koşulları" 
-      [Sözleşme Metni]
+     <DialogHeader>
+              <DialogTitle>Boyner Grubu Şirketleri</DialogTitle>
+            </DialogHeader>
+            <DialogDescription>
+              <p className="mb-4">
+                Boyner Grup Şirketleri; Boyner Büyük Mağazacılık A.Ş.,
+                Altınyıldız Tekstil ve Konfeksiyon A.Ş., BR Mağazacılık Ticaret
+                A.Ş. ve BNR Teknoloji A.Ş. gibi Boyner Holding A.Ş.’ne bağlı
+                şirketler ile mevcut – müstakbel diğer iştirakleridir.
+              </p>
+            </DialogDescription>
      },
   ],
 };
