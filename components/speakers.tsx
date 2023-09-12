@@ -6,7 +6,7 @@ import speaker4 from "@/public/assets/konuşmacılar/beyza-necip-konusmaci-dynam
 import speaker5 from "@/public/assets/konuşmacılar/dilara-kocak-konusmaci-dynamic-fest.jpg";
 import speaker6 from "@/public/assets/konuşmacılar/ece-vahapoglu-konusmaci-dynamic-fest.jpg";
 import speaker7 from "@/public/assets/konuşmacılar/erhan-ali-yilmaz-konusmaci-dynamic-fest.jpg";
-import speaker8 from "@/public/assets/konuşmacılar/ertan-balaban-konusmaci-dynamic-fest.jpg";
+import speaker8 from "@/public/assets/konuşmacılar/kumsal-kurucu-konusmaci-dynamic-fest.jpg";
 import speaker9 from "@/public/assets/konuşmacılar/esin-aksoy-konusmaci-dynamic-fest.jpg";
 import speaker10 from "@/public/assets/konuşmacılar/orcun-kurum-konusmaci-dynamic-fest.jpg";
 import speaker11 from "@/public/assets/konuşmacılar/ozlem-akkas-konusmaci-dynamic-fest.jpg";
@@ -96,6 +96,12 @@ const people = [
       `Mindfulness, storytelling, şiddetsiz iletişim, nefes, ruhsal rehberlik, OSHO eğitimleri, transaksiyonel analiz alanlarında aldığı eğitimler ile deneyimlediği teknikleri birleştirerek kendi koçluk yolculuğunu başlattı.`,
       `2010-2011 yıllarında sürdürdüğü Vip Direktörlüğü görevinden ayrıldıktan sonra kurumsal eğitmenlik ve bireysel danışmanlık yapmaya başlayan Aksyon bugün; Bireysel Gelişim ve Bütünsel Dönüşümsel, Motivasyon alanlarında verdiği kurumsal eğitimler ile gelişim alanındaki çalışmalarını sürdürüyor.`,
     ],
+  },
+  {
+    name: "Kumsal Kurucu",
+    role: "DİYETİSYEN",
+    imageUrl: speaker8,
+    bio: [""],
   },
   {
     name: "Orçun Kürüm",
