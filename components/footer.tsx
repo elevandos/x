@@ -93,7 +93,7 @@ export default function Footer() {
     <br />
     <h2>Madde 1: Kapsam</h2>
     <br />
-    <p>Bu metinde, Boyner Büyük Mağazacılık Anonim Şirketi’ne (“Şirket” veya “Boyner”) ait DYNAMIC FEST İnternet Sitesi’ni ziyaret eden Ziyaretçiler’imiz uyması gereken kullanım koşullarını (“Kullanım Koşulları”) bulunmaktadır.</p>
+    <p>Bu metinde, Boyner Büyük Mağazacılık Anonim Şirketi’ne (“Şirket” veya “Boyner”) ait DYNAMIC FEST İnternet Sitesi’ni ziyaret eden Ziyaretçilerimiz uyması gereken kullanım koşullarını (“Kullanım Koşulları”) bulunmaktadır.</p>
     <br />
     <h2>Madde 2: Amaç</h2>
     <br />
