@@ -3,12 +3,23 @@ import BoynerLogo from "@/public/boyner-logo-dark-bg.svg";
 import AppStoreLogo from "@/public/assets/kit/app-store-logo.png";
 import GooglePlayLogo from "@/public/assets/kit/google-play-logo.png";
 import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 const navigation = {
   main: [
     { name: "Boyner Hakkında", href: "https://kurumsal.boyner.com.tr/" },
-    { name: "Kullanım Koşulları", href: "#" },
   ],
+  {
+  bio: [`K`,     
+   ]
+  }
 };
 
 const apps = [
