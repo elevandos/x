@@ -92,7 +92,7 @@ export default function Footer() {
                     </DialogHeader>
                     <DialogDescription>
                       {/* Gerçek kullanım koşulları metnini buraya ekleyin */}
-                      Örnek Kullanım Koşulları metni.
+                      Örnek Kullanım Koşulları metni
                     </DialogDescription>
                   </DialogContent>
                 </Dialog>
