@@ -23,7 +23,7 @@ const navigation = {
 };
 // CSS stilini tanımla
 const dialogContentStyle: React.CSSProperties = {
-  maxHeight: "400px", // İçeriğin maksimum yüksekliği
+  maxHeight: "600px", // İçeriğin maksimum yüksekliği
   overflowY: "auto",   // İçerik aştığında scroll yap
 };
 
