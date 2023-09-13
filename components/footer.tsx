@@ -74,15 +74,14 @@ export default function Footer() {
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               {item.name === "Kullanım Koşulları" ? (
-                <Dialog
-                   scrollBehavior={scrollBehavior}
-                  >
+                <Dialog>
                   <DialogTrigger>
                     <button className="text-sm leading-6 text-white hover:text-muted-foreground">
                       {item.name}
                     </button>
                   </DialogTrigger>
-                  <DialogContent>
+                 <div className="dialog-content-wrapper h-[400px] overflow-y-auto">
+ <DialogContent>
                     <DialogHeader>
                       <DialogTitle>Kullanım Koşulları</DialogTitle>
                     </DialogHeader>
@@ -168,7 +167,8 @@ export default function Footer() {
     <p>9.2. Ziyaretçi, İnternet Sitesi’nde ilan edilen değişiklik ve güncellemeleri takip etmek zorundadır. </p>
     <br />
       </DialogDescription>
-                  </DialogContent>
+                  </DialogContent></div>
+
                 </Dialog>
               ) : (
                 <a
