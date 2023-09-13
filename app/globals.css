@@ -5,7 +5,9 @@
 .DialogStyling{
   padding-left: 2rem !important;
 }
-
+.dialog-content-wrapper {
+  max-height: 80vh; /* İçeriğin en fazla ekran yüksekliğinin %80'i kadar olmasını sağlar */
+}
 .swiper-button-next{
   color: white !important;
   right: 20px !important;
