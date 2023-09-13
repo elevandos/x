@@ -21,7 +21,7 @@ const navigation = {
     { name: "Kullanım Koşulları", href: "#" },
   ],
 };
-
+/*
 const apps = [
   {
     name: "App Store",
@@ -42,7 +42,7 @@ const apps = [
     imageAlt: "App Gallery",
   },
 ];
-
+*/
 export default function Footer() {
   return (
     <footer className="relative flex flex-col justify-between space-y-10 bg-black">
