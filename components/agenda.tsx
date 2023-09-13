@@ -116,7 +116,7 @@ const eventData: DayData[] = [
           },
           {
             time: "16.00 - 16.45",
-            description: "Urban Active ile Kangoo Jump",
+            description: "Urban Active ile Kangoo Jumps",
           },
           {
             time: "17.00 - 17.45",
@@ -230,23 +230,23 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
-            time: "10:00 - 18:00",
+            time: "11:00 - 18:00",
             description: "Joma ile Zorbing Football",
           },
           {
-            time: "10:00 - 18:00",
+            time: "11:00 - 18:00",
             description: "Joma ile Dev Eller Basketbol",
           },
           {
-            time: "10:00 - 18:00",
+            time: "11:00 - 18:00",
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
-            time: "10:00 - 18:00",
+            time: "11:00 - 18:00",
             description: "adidas ile Streetball Turnuvası",
           },
           {
-            time: "10:00 - 18:00",
+            time: "11:00 - 18:00",
             description: "Body Painting & Tattoo",
           },
           // Add more events here
@@ -328,7 +328,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15:00 - 15:45",
-            description: "Urban Active ile Kangoo Jump",
+            description: "Urban Active ile Kangoo Jumps",
           },
           {
             time: "16:00 - 16:45",
@@ -440,31 +440,31 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
-            time: "10:00 - 17:30",
+            time: "11:00 - 17:30",
             description: "Joma ile Zorbing Football",
           },
           {
-            time: "10:00 - 17:30",
+            time: "11:00 - 17:30",
             description: "Joma ile Dev Eller Basketbol",
           },
           {
-            time: "10:00 - 17:30",
+            time: "11:00 - 17:30",
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
-            time: "10:00 - 17:30",
+            time: "11:00 - 17:30",
             description: "Streetball Turnuvası",
           },
           {
-            time: "10:00 - 17:30",
+            time: "11:00 - 17:30",
             description: "Streetball Finali",
           },
           {
-            time: "10:00 - 17:30",
+            time: "11:00 - 17:30",
             description: "Body Painting & Tattoo",
           },
           {
-            time: "10:00 - 18:00",
+            time: "11:00 - 18:00",
             description: "adidas ile Streetball Turnuvası",
           },
           {
