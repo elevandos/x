@@ -7,10 +7,10 @@ import speaker5 from "@/public/assets/konuşmacılar/dilara-kocak-konusmaci-dyna
 import speaker6 from "@/public/assets/konuşmacılar/ece-vahapoglu-konusmaci-dynamic-fest.jpg";
 import speaker7 from "@/public/assets/konuşmacılar/erhan-ali-yilmaz-konusmaci-dynamic-fest.jpg";
 import speaker8 from "@/public/assets/konuşmacılar/kumsal-kurucu-konusmaci-dynamic-fest.jpg";
-import speaker9 from "@/public/assets/konuşmacılar/esin-aksoy-konusmaci-dynamic-fest.jpg";
+import speaker9 from "@/public/assets/konuşmacılar/esin-aksoy-konusmaci-dynamic-fest-1.jpg";
 import speaker10 from "@/public/assets/konuşmacılar/orcun-kurum-konusmaci-dynamic-fest.jpg";
 import speaker11 from "@/public/assets/konuşmacılar/ozlem-akkas-konusmaci-dynamic-fest.jpg";
-import speaker12 from "@/public/assets/konuşmacılar/tugrul-cagri-yilmazer-konusmaci-dynamic-fest.jpg";
+import speaker12 from "@/public/assets/konuşmacılar/tugrul-cagri-yilmazer-konusmaci-dynamic-fest-1.jpg";
 import speaker13 from "@/public/assets/konuşmacılar/umut-gursoy-konusmaci-dynamic-fest.jpg";
 import speaker14 from "@/public/assets/konuşmacılar/beceste-seber-konusmaci-dynamic-fest.jpg";
 import TugbaDanismazImg from "@/public/assets/konuşmacılar/tugba-danismaz-konusmaci-dynamic-fest.jpg";
