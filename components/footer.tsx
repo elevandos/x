@@ -72,7 +72,7 @@ export default function Footer() {
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
-            <div key={item.name} className="pb-6">
+            <div key={item.name} className="pb-6" style={ overflow: 'auto' }>
               {item.name === "Kullanım Koşulları" ? (
                 <Dialog>
                   <DialogTrigger>
