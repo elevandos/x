@@ -21,7 +21,13 @@ const navigation = {
     { name: "Kullanım Koşulları", href: "#" },
   ],
 };
-  {/*
+ // CSS stilini tanımla
+const dialogContentStyle = {
+  maxHeight: "400px", // İçeriğin maksimum yüksekliği
+  overflowY: "auto",   // İçerik aştığında scroll yap
+};
+
+{/*
 const apps = [
   {
     name: "App Store",
@@ -80,7 +86,7 @@ export default function Footer() {
                       {item.name}
                     </button>
                   </DialogTrigger>
-                   <DialogContent>
+                    <DialogContent style={dialogContentStyle}>
                     <DialogHeader>
                       <DialogTitle>Kullanım Koşulları</DialogTitle>
                     </DialogHeader>
