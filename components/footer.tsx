@@ -21,10 +21,10 @@ const navigation = {
     { name: "Kullanım Koşulları", href: "#" },
   ],
 };
-// CSS stilini tanımla
+
 const dialogContentStyle: React.CSSProperties = {
-  maxHeight: "600px", // İçeriğin maksimum yüksekliği
-  overflowY: "auto",   // İçerik aştığında scroll yap
+  maxHeight: "600px", 
+  overflowY: "auto",  
 };
 
 
