@@ -141,7 +141,7 @@ const eventData: DayData[] = [
           },
           {
             time: "14.15 - 15.00",
-            description: "Name It ile Geri Dönüştürülmüş Kağıttan Animal Helmet",
+            description: "name it ile Geri Dönüştürülmüş Kağıttan Animal Helmet",
           },
           {
             time: "15.15 - 16.00",
