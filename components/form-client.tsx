@@ -1,6 +1,11 @@
 "use client";
+<<<<<<< HEAD
 
 import { zodResolver } from "@hookform/resolvers/zod";
+=======
+import { zodResolver } from "@hookform/resolvers/zod";
+import React, { useState } from "react";
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 import { useForm, UseFormReturn } from "react-hook-form";
 import Link from "next/link";
 import Swal from "sweetalert2";
@@ -24,7 +29,10 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
+<<<<<<< HEAD
 import { useToast } from "@/components/ui/use-toast";
+=======
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 import Image from "next/image";
 import DiynamicFestLogo from "@/public/assets//kit/calisma-yuzeyi-12.png";
 
@@ -58,8 +66,12 @@ export function ProfileForm() {
   });
 }
 // 2. Define a submit handler.
+<<<<<<< HEAD
 const handleSubmit = async (e: any) => {
   const { toast } = useToast();
+=======
+const handleSubmit = (e: any) => {
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
   e.preventDefault();
   let username = e.target.username.value;
   let phone = e.target.phone.value;
@@ -72,11 +84,15 @@ const handleSubmit = async (e: any) => {
     email === "" ||
     privacyPolicy === false
   ) {
+<<<<<<< HEAD
     toast({
       title: "Hata!",
       description: "Lütfen tüm alanları doldurunuz.",
       variant: "destructive",
     });
+=======
+    alert("Lütfen tüm alanları doldurunuz.");
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
     return false;
   }
 
@@ -87,6 +103,7 @@ const handleSubmit = async (e: any) => {
     privacyPolicy,
   };
 
+<<<<<<< HEAD
   try {
     const res = await fetch("/api/download", {
       method: "POST",
@@ -114,6 +131,32 @@ const handleSubmit = async (e: any) => {
       variant: "destructive",
     });
   }
+=======
+  fetch("/api/download", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  })
+    .then((res) => {
+      Swal.fire({
+        title: "Başarılı!",
+        text: "Form başarıyla gönderildi.",
+        icon: "success",
+        showConfirmButton: false,
+        timer: 1500,
+      }).then(() => {
+        e.target.username.value = "";
+        e.target.phone.value = "";
+        e.target.email.value = "";
+        e.target.reset();
+      });
+    })
+    .catch((err) => {
+      alert("Form gönderilirken bir hata oluştu.");
+    });
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 };
 function ShapeDividerTop() {
   return (
@@ -887,6 +930,41 @@ function RenderCheckboxes() {
 }
 export function InputForm() {
   const form = useForm<z.infer<typeof formSchema>>();
+<<<<<<< HEAD
+=======
+  const [usernameErrorMessage, setUsernameErrorMessage] = useState("");
+  const [phoneErrorMessage, setPhoneErrorMessage] = useState("");
+  const [emailErrorMessage, setEmailErrorMessage] = useState("");
+
+  const validateUsername = (value: string) => {
+    if (value.length === 0) {
+      setUsernameErrorMessage("Lütfen adınızı giriniz.");
+    } else if (/[\d!@#$%^&*()\-=\[\]{};:'",.<>/?\\|_~`]/.test(value)) {
+      setUsernameErrorMessage("Lütfen geçerli bir ad giriniz.");
+    } else {
+      setUsernameErrorMessage("");
+    }
+  };
+
+  const validatePhone = (value: string) => {
+    if (/[a-zA-Z]/.test(value) || value.length < 10) {
+      setPhoneErrorMessage("Lütfen Geçerli bir Telefon Numarası Giriniz.");
+    } else {
+      setPhoneErrorMessage("");
+    }
+  };
+
+  const emailSchema = z.string().email();
+
+  const validateEmail = (value: string) => {
+    const response = emailSchema.safeParse(value);
+    if (!response.success) {
+      setEmailErrorMessage("Geçerli Bir Email Giriniz");
+    } else {
+      setEmailErrorMessage("");
+    }
+  };
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 
   return (
     <section className="relative bg-boyner-about">
@@ -918,6 +996,12 @@ export function InputForm() {
                             <Input
                               placeholder="Adın Soyadın"
                               {...field}
+<<<<<<< HEAD
+=======
+                              onChange={(e) => {
+                                validateUsername(e.target.value);
+                              }}
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
                               required
                               maxLength={40}
                             />
@@ -926,6 +1010,12 @@ export function InputForm() {
                         </FormItem>
                       )}
                     />
+<<<<<<< HEAD
+=======
+                    <span className="text-xs text-red-500">
+                      {usernameErrorMessage}
+                    </span>
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 
                     <FormField
                       control={form.control}
@@ -936,6 +1026,15 @@ export function InputForm() {
                             <Input
                               placeholder="Cep Telefonun"
                               {...field}
+<<<<<<< HEAD
+=======
+                              onBlur={(e) => {
+                                validatePhone(e.target.value);
+                              }}
+                              onFocus={(e) => {
+                                setPhoneErrorMessage("");
+                              }}
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
                               required
                               maxLength={13}
                             />
@@ -944,6 +1043,12 @@ export function InputForm() {
                         </FormItem>
                       )}
                     />
+<<<<<<< HEAD
+=======
+                    <span className="text-xs text-red-500">
+                      {phoneErrorMessage}
+                    </span>
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
                     <FormField
                       control={form.control}
                       name="email"
@@ -953,6 +1058,15 @@ export function InputForm() {
                             <Input
                               placeholder="E-posta Adresin"
                               {...field}
+<<<<<<< HEAD
+=======
+                              onBlur={(e) => {
+                                validateEmail(e.target.value);
+                              }}
+                              onFocus={(e) => {
+                                setEmailErrorMessage("");
+                              }}
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
                               required
                             />
                           </FormControl>
@@ -960,6 +1074,12 @@ export function InputForm() {
                         </FormItem>
                       )}
                     />
+<<<<<<< HEAD
+=======
+                    <span className="text-xs text-red-500">
+                      {emailErrorMessage}
+                    </span>
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
                     <RenderCheckboxes />
                     <Button
                       type="submit"

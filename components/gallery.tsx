@@ -22,6 +22,11 @@ const Gallery = () => {
         <Swiper
           loop={true}
           spaceBetween={30}
+<<<<<<< HEAD
+=======
+          navigation
+          modules={[Navigation]}
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           breakpoints={{
             1280: {
               slidesPerView: 2,

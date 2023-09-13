@@ -79,10 +79,13 @@ const faqs = [
     answer: `Festival süresince istersen dışarıdan kendi yiyeceğini veya içeceğini getirebilirsin.`,
   },
   {
+<<<<<<< HEAD
     question: `Yanımda profesyonel ses ve görüntü araçları ve ekipmanları (video kamera, fotoğraf makinası, go pro vb.) getirebilir miyim?`,
     answer: `Evet, getirebilirsin.`,
   },
   {
+=======
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
     question: `Festivalde sağlık ekibi bulunacak mı? Tıbbi yardıma ihtiyacım olursa ne yapmalıyım?`,
     answer: `Festival süresince alanda ilk yardım alanı, sağlık ekibi ve ambulansı hazır bulunduracağız. Acil tıbbi müdahale için alandaki güvenlik görevlilerinden yardım talep etmeni rica ediyoruz.`,
   },
@@ -112,6 +115,13 @@ const faqs = [
     question: `Festival alanında alkol satışı olacak mı?`,
     answer: `Festival alanında herhangi bir alkol satışı olmayacak.`,
   },
+<<<<<<< HEAD
+=======
+  {
+    question: `Üyeliğimi sonlandırmak ve hesabımı kapatmak için ne yapmalıyım?`,
+    answer: `Hesabını kapatmak için kvkk@boyner.com.tr adresine talebini ve hesap bilgilerini içeren bir e-posta atabilirsin.`,
+  },
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 ];
 
 const FAQ = () => {

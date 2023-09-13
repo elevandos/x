@@ -18,7 +18,11 @@ export default function Home() {
       <Agenda />
       <Speakers />
       <Sponsor />
+<<<<<<< HEAD
       {/* <Form /> */}
+=======
+      <Form />
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
       <FAQ />
       <Transportation />
       <Footer />

@@ -72,6 +72,13 @@ const eventData: DayData[] = [
             time: "14.00 – 15.00",
             description: "21 Dakikada Ruh ve Beden Dengesi by Ece Vahapoğlu",
           },
+<<<<<<< HEAD
+=======
+          {
+            time: "15.00 – 15.45",
+            description: "LifeClub ile Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
+          },
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           // {
           //   time: "15.00 – 16.00",
           //   description: "Pending Data",
@@ -108,7 +115,11 @@ const eventData: DayData[] = [
           },
           {
             time: "15.00 - 15.45",
+<<<<<<< HEAD
             description: "Puma ile Cardio Workout by Atakan Işıktutan",
+=======
+            description: "Puma ile Fonksiyonel Cardio Workout by İnanç Akbaş",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           {
             time: "16.00 - 16.45",
@@ -128,6 +139,7 @@ const eventData: DayData[] = [
             description: "Costa Coffee ile Gerçek Kahve Atölyesi",
           },
           {
+<<<<<<< HEAD
             time: "12.15-13.00",
             description: "Levi’s ile Kalem Çantası Kişiselleştirme",
           },
@@ -149,6 +161,29 @@ const eventData: DayData[] = [
           },
           {
             time: "17.15-17.45",
+=======
+            time: "12.15 - 13.00",
+            description: "Levi’s ile Kalem Çantası Kişiselleştirme",
+          },
+          {
+            time: "13.15 - 14.00",
+            description: "Kahkaha Yogası by Özgür Çağlar Çelik",
+          },
+          {
+            time: "14.15 - 15.00",
+            description: "Name It ile Geri Dönüştürülmüş Kağıttan Animal Helmet",
+          },
+          {
+            time: "15.15 - 16.00",
+            description: "Ritim & Perküsyon Atölyesi",
+          },
+          {
+            time: "16.15 - 17.00",
+            description: "Levi’s ile İleri Dönüştürülmüş Çanta Kişiselleştirme",
+          },
+          {
+            time: "17.15 - 17.45",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
             description: "adidas ile String Art",
           },
           // Add more events here
@@ -188,6 +223,7 @@ const eventData: DayData[] = [
         stageName: "Kids Zone",
         events: [
           {
+<<<<<<< HEAD
             time: "11.00-12.00",
             description: "Arka Bahçede Bilim",
           },
@@ -206,6 +242,38 @@ const eventData: DayData[] = [
           {
             time: "15.00 - 16.00",
             description: "Tırtıl Kids ile Imagination Atölyesi",
+=======
+            time: "12.00 - 18.00",
+            description: "Skechers ile Gün Boyu Çocuk Aktiviteleri (Yüz Boyama, Eğlenceli Parkur Oyunlar)",
+          },
+          {
+            time: "12.00 - 12.40",
+            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+          },
+          {
+            time: "12.00 - 13.00",
+            description: "Tırtıl Kids ile Rigamajig Atölyesi",
+          },
+          {
+            time: "13.00 - 14.00",
+            description: "Skechers ile Çocuk Egzersizi by Ceren Duman",
+          },
+          {
+            time: "15.00 - 15.40",
+            description: "Skechers ile Masal Tiyatrosu",
+          },
+          {
+            time: "15.00 - 16.00",
+            description: "Tırtıl Kids ile Rigamajig Atölyesi",
+          },
+          {
+            time: "16.00 - 17.00",
+            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+          },
+          {
+            time: "17.00 - 18.00",
+            description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           // Add more events here
         ],
@@ -223,11 +291,19 @@ const eventData: DayData[] = [
           },
           {
             time: "10:00 - 18:00",
+<<<<<<< HEAD
             description: "BoardridersTR Ekibiyle Kaykay Workshop",
           },
           {
             time: "10:00 - 18:00",
             description: "Streetball Turnuvası",
+=======
+            description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
+          },
+          {
+            time: "10:00 - 18:00",
+            description: "adidas ile Streetball Turnuvası",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           {
             time: "10:00 - 18:00",
@@ -282,7 +358,11 @@ const eventData: DayData[] = [
           },
           {
             time: "15:30 - 16:30",
+<<<<<<< HEAD
             description: "Asics ile Performans Beslenmesi by Orçun Kürüm",
+=======
+            description: "ASICS ile Performans Beslenmesi by Orçun Kürüm",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           {
             time: "16:30 - 17:30",
@@ -337,7 +417,11 @@ const eventData: DayData[] = [
           },
           {
             time: "14.15 - 15.00",
+<<<<<<< HEAD
             description: "Neon Enerjisi Atölyesi",
+=======
+            description: "Jack&Jones ile Neon Enerjisi Atölyesi",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           {
             time: "15.15 - 16.00",
@@ -386,6 +470,7 @@ const eventData: DayData[] = [
         stageName: "Kids Zone",
         events: [
           {
+<<<<<<< HEAD
             time: "11.00-12.00",
             description: "Arka Bahçede Bilim",
           },
@@ -404,6 +489,38 @@ const eventData: DayData[] = [
           {
             time: "15.00 - 16.00",
             description: "Tırtıl Kids ile Rigamajig Atölyesi",
+=======
+            time: "12.00 - 18.00",
+            description: "Skechers ile Gün Boyu Çocuk Aktiviteleri (Yüz Boyama, Eğlenceli Parkur Oyunlar)",
+          },
+          {
+            time: "12.00 - 13.00",
+            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+          },
+          {
+            time: "12.00 - 13.00",
+            description: "Tırtıl Kids ile Imagination Atölyesi",
+          },
+          {
+            time: "13.00 - 14.00",
+            description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
+          },
+          {
+            time: "15.00 - 15.40",
+            description: "Skechers ile Masal Tiyatrosu",
+          },
+          {
+            time: "15.00 - 16.00",
+            description: "Tırtıl Kids ile Imagination Atölyesi",
+          },
+          {
+            time: "16.00 - 17.00",
+            description: "Skechers ile Ahşap Ayakkabı Boyama ve Tasarım Atölyesi",
+          },
+          {
+            time: "17.00 - 18.00",
+            description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           // Add more events here
         ],
@@ -421,7 +538,11 @@ const eventData: DayData[] = [
           },
           {
             time: "10:00 - 17:30",
+<<<<<<< HEAD
             description: "BoardridersTR Ekibiyle Kaykay Workshop",
+=======
+            description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           },
           {
             time: "10:00 - 17:30",
@@ -435,6 +556,17 @@ const eventData: DayData[] = [
             time: "10:00 - 17:30",
             description: "Body Painting & Tattoo",
           },
+<<<<<<< HEAD
+=======
+          {
+            time: "10:00 - 18:00",
+            description: "adidas ile Streetball Turnuvası",
+          },
+          {
+            time: "18:00 - 20:00",
+            description: "Emu ile After Party by DJ Furkan Kozanlı & Cihan Hatipoğlu",
+          },
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           // Add more events here
         ],
       },

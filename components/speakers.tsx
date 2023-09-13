@@ -1,12 +1,22 @@
 import Image from "next/image";
+<<<<<<< HEAD
 import speaker1 from "@/public/assets/konuşmacılar/aysegul-coruhlu-konusmaci-dynamic-fest.jpg";
 import speaker2 from "@/public/assets/konuşmacılar/aysu-duz-konusmaci-dynamic-fest.jpg";
 import speaker3 from "@/public/assets/konuşmacılar/aysu-turkoglu-konusmaci-dynamic-fest.jpg";
+=======
+import speaker1 from "@/public/assets/konuşmacılar/aysegul-coruhlu-konusmaci-dynamic-fest-1.jpg";
+import speaker2 from "@/public/assets/konuşmacılar/aysu-duz-konusmaci-dynamic-fest.jpg";
+import speaker3 from "@/public/assets/konuşmacılar/aysu-turkoglu-konusmaci-dynamic-fest-1.jpg";
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 import speaker4 from "@/public/assets/konuşmacılar/beyza-necip-konusmaci-dynamic-fest.jpg";
 import speaker5 from "@/public/assets/konuşmacılar/dilara-kocak-konusmaci-dynamic-fest.jpg";
 import speaker6 from "@/public/assets/konuşmacılar/ece-vahapoglu-konusmaci-dynamic-fest.jpg";
 import speaker7 from "@/public/assets/konuşmacılar/erhan-ali-yilmaz-konusmaci-dynamic-fest.jpg";
+<<<<<<< HEAD
 import speaker8 from "@/public/assets/konuşmacılar/ertan-balaban-konusmaci-dynamic-fest.jpg";
+=======
+import speaker8 from "@/public/assets/konuşmacılar/kumsal-kurucu-konusmaci-dynamic-fest.jpg";
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
 import speaker9 from "@/public/assets/konuşmacılar/esin-aksoy-konusmaci-dynamic-fest.jpg";
 import speaker10 from "@/public/assets/konuşmacılar/orcun-kurum-konusmaci-dynamic-fest.jpg";
 import speaker11 from "@/public/assets/konuşmacılar/ozlem-akkas-konusmaci-dynamic-fest.jpg";
@@ -89,7 +99,11 @@ const people = [
   },
   {
     name: "Esin Aksoy",
+<<<<<<< HEAD
     role: "NLP KOÇU",
+=======
+    role: "PERFORMANS ve İYİ YAŞAM DANIŞMANI",
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
     imageUrl: speaker9,
     bio: [
       `Kariyerine; NLP Koçu, Eğitmen ve Danışman olarak devam eden Esin Aksoy, 2001 yılında Yıldız Teknik Üniversitesi Matematik Mühendisliği Bölümü’nden mezun olduktan sonra birçok kurumda çalıştı. `,
@@ -98,6 +112,15 @@ const people = [
     ],
   },
   {
+<<<<<<< HEAD
+=======
+    name: "Kumsal Kurucu",
+    role: "DİYETİSYEN",
+    imageUrl: speaker8,
+    bio: [""],
+  },
+  {
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
     name: "Orçun Kürüm",
     role: "UZMAN DİYETİSYEN",
     imageUrl: speaker10,
@@ -160,7 +183,11 @@ const Speakers = () => {
       <div className="w-full overflow-hidden px-4 py-24 sm:px-0 sm:py-32 sm:pt-0">
         <div className="w-full py-24 sm:py-32 sm:pt-24">
           <h2 className="text-center text-4xl font-extrabold tracking-tight text-white ">
+<<<<<<< HEAD
             FESTİVALE İLHAM VERENLER
+=======
+            FESTİVALİN İLHAM VEREN KONUŞMACILARI
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
           </h2>
           {/* <h5 className="mt-2 text-center text-lg font-semibold tracking-tight text-white opacity-80 ">
             
@@ -209,10 +236,17 @@ const Speakers = () => {
               ))}
             </ul>
           </div>
+<<<<<<< HEAD
           <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
           </div>
           <div className="mx-auto max-w-7xl">
+=======
+          {/* <div className="my-4 w-full pt-24">
+            <Image className="h-full w-full" src={Flyer} alt=""></Image>
+          </div> */}
+          {/* <div className="mx-auto max-w-7xl">
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
             <h2 className="text-center text-4xl font-extrabold tracking-tight text-white ">
               FESTİVAL MODASI
             </h2>
@@ -230,7 +264,11 @@ const Speakers = () => {
                 TIKLA!
               </a>
             </h2>
+<<<<<<< HEAD
           </div>
+=======
+          </div> */}
+>>>>>>> e568b7eaa0a5b1f9597298167b5d205614a3041f
         </div>
       </div>
       <SectionDividerSpeakers />
