@@ -80,8 +80,7 @@ export default function Footer() {
                       {item.name}
                     </button>
                   </DialogTrigger>
-                 <div className="dialog-content-wrapper h-[400px] overflow-y-auto">
- <DialogContent>
+                   <DialogContent>
                     <DialogHeader>
                       <DialogTitle>Kullanım Koşulları</DialogTitle>
                     </DialogHeader>
@@ -167,8 +166,7 @@ export default function Footer() {
     <p>9.2. Ziyaretçi, İnternet Sitesi’nde ilan edilen değişiklik ve güncellemeleri takip etmek zorundadır. </p>
     <br />
       </DialogDescription>
-                  </DialogContent></div>
-
+                  </DialogContent>
                 </Dialog>
               ) : (
                 <a
