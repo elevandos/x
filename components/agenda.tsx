@@ -440,27 +440,27 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
-            time: "11:00 - 17:30",
+            time: "11:00 - 18:00",
             description: "Joma ile Zorbing Football",
           },
           {
-            time: "11:00 - 17:30",
+            time: "11:00 - 18:00",
             description: "Joma ile Dev Eller Basketbol",
           },
           {
-            time: "11:00 - 17:30",
+            time: "11:00 - 18:00",
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
-            time: "11:00 - 17:30",
+            time: "11:00 - 18:00",
             description: "Streetball Turnuvası",
           },
           {
-            time: "11:00 - 17:30",
+            time: "11:00 - 18:00",
             description: "Streetball Finali",
           },
           {
-            time: "11:00 - 17:30",
+            time: "11:00 - 18:00",
             description: "Body Painting & Tattoo",
           },
           {
