@@ -76,10 +76,6 @@ const eventData: DayData[] = [
             time: "15.00 – 15.45",
             description: "LifeClub ile Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
           },
-          // {
-          //   time: "15.00 – 16.00",
-          //   description: "Pending Data",
-          // },
           {
             time: "16.00 – 17.00",
             description: "Mağaraya Giriş 101 by Tuğrul Çağrı Yılmazer",
@@ -88,7 +84,6 @@ const eventData: DayData[] = [
             time: "17.00 – 18.00",
             description: "Merrell ile Ultra Sohbetler by Özgür Tetik ",
           },
-          // Add more events here
         ],
       },
       {
@@ -155,7 +150,6 @@ const eventData: DayData[] = [
             time: "17.15 - 17.45",
             description: "adidas ile String Art",
           },
-          // Add more events here
         ],
       },
       {
@@ -185,7 +179,6 @@ const eventData: DayData[] = [
             time: "17.00 - 17.45",
             description: "edding ile Upcycling by Olima Tile Art",
           },
-          // Add more events here
         ],
       },
       {
@@ -223,7 +216,6 @@ const eventData: DayData[] = [
             time: "17.00 - 18.00",
             description: "Skechers ile Yaratıcılığını Keşfet Boyama Atölyesi",
           },
-          // Add more events here
         ],
       },
       {
@@ -249,10 +241,8 @@ const eventData: DayData[] = [
             time: "11:00 - 18:00",
             description: "Body Painting & Tattoo",
           },
-          // Add more events here
         ],
       },
-      // Add more stages here
     ],
   },
   {
@@ -471,7 +461,6 @@ const eventData: DayData[] = [
             time: "18:00 - 20:00",
             description: "Emu ile After Party by DJ Furkan Kozanlı & Cihan Hatipoğlu",
           },
-          // Add more events here
         ],
       },
     ],
