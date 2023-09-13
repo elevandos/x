@@ -21,7 +21,7 @@ const navigation = {
     { name: "Kullanım Koşulları", href: "#" },
   ],
 };
-/*
+  {/*
 const apps = [
   {
     name: "App Store",
@@ -42,7 +42,7 @@ const apps = [
     imageAlt: "App Gallery",
   },
 ];
-*/
+*/}
 export default function Footer() {
   return (
     <footer className="relative flex flex-col justify-between space-y-10 bg-black">
@@ -50,7 +50,7 @@ export default function Footer() {
         <div className="mb-16 flex items-center justify-center p-2">
           <Image src={BoynerLogo} alt="" className="h-auto w-64 lg:w-96" />
         </div>
-        {/* Uygulama indirme bağlantıları */}
+     {/*
         <div className="flex flex-wrap justify-center space-x-6 p-2">
           {apps.map((app) => (
             <a
@@ -65,7 +65,7 @@ export default function Footer() {
               />
             </a>
           ))}
-        </div>
+        </div>*/}
         {/* Ana navigasyon menüsü */}
         <nav
           className="flex justify-center space-x-3 text-xs tracking-tighter"
