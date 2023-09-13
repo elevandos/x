@@ -6,6 +6,10 @@
   padding-left: 2rem !important;
    max-height: 80vh;
 }
+.dialog-content {
+  max-height: 400px; /* İçerik yüksekliğini belirleyin */
+  overflow-y: auto; /* Yüksekliği aştığında scroll çubuğunu göster */
+}
 .swiper-button-next{
   color: white !important;
   right: 20px !important;
