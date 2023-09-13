@@ -195,7 +195,7 @@ const Speakers = () => {
                         {person.role}
                       </p>
                     </DialogTrigger>
-                    <DialogContent className="max-h-[400px] overflow-auto">
+                    <DialogContent className="max-h-[600px] overflow-auto">
                       <DialogHeader>
                         <DialogTitle>{person.name}</DialogTitle>
                       </DialogHeader>
