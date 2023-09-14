@@ -42,7 +42,7 @@ function ResponsiveImages() {
       {/* Images for mobile screens */}
       <div className="flex flex-wrap justify-center sm:hidden">
         <a href="https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic">
-          <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" />
+          <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" /><br/><br/>
         </a>
       </div> 
 
@@ -103,7 +103,7 @@ export default function About() {
             <div>
               <div>
                 <div className="flex items-center justify-center">
-                  <ResponsiveImages /><br/><br/>
+                  <ResponsiveImages />
                 </div>
               </div>
             </div>
