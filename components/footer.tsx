@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import BoynerLogo from "@/public/boyner-logo-dark-bg.svg";
 import AppStoreLogo from "@/public/assets/kit/app-store-logo.png";
-import GooglePlayLogo from "@/public/assets/kit/google-play-logo.png";
+import GooglePlayLogo from "@/public/assets/kit/playstore-2.svg";
 import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
 
 // İlgili bileşenleri içe aktarın
