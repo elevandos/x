@@ -30,13 +30,7 @@ const dialogContentStyle: React.CSSProperties = {
 
 
 const apps = [
-  {/* {
-    name: "App Store",
-    href: "https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic",
-    imageSrc: AppStoreLogo,
-    imageAlt: "App Store",
-  },*/}
-  {
+   {
     name: "Google Play",
     href: "https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic",
     imageSrc: GooglePlayLogo,
