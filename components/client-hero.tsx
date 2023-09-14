@@ -71,14 +71,17 @@ export default function Example() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-  <Button variant="outline">
-    ÜCRETSİZ KATIL
-    <span className="ms-2" aria-hidden="true">
-      &rarr;
-    </span>
-  </Button>
+<div className="hidden lg:flex lg:flex-1 lg:justify-end">
+  <a href="https://qrco.de/beLiFn">
+    <Button variant="outline">
+      ÜCRETSİZ KATIL
+      <span className="ms-2" aria-hidden="true">
+        &rarr;
+      </span>
+    </Button>
+  </a>
 </div>
+
 
         </nav>
         <Dialog
