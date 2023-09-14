@@ -9,6 +9,7 @@ import GooglePlay from "@/public/assets/kit/playstore-1.svg";
 import AppStore from "@/public/assets/kit/appstore.png";
 import AppGallery from "@/public/assets/kit/huaweistore.png";
 
+
 function VideoContent() {
   return (
     <div className="mt-4 p-4 md:mt-0">
@@ -39,12 +40,36 @@ function ResponsiveImages() {
       </div>
 
       {/* Images for mobile screens */}
+      
       <div className="flex flex-wrap justify-center sm:hidden">
         <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" />
       </div>
     </div>
   );
 }
+const apps = [
+   {
+    name: "Google Play",
+    href: "https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic",
+    imageSrc: GooglePlay,
+    imageAlt: "Google Play",
+  },
+
+          <div className="flex flex-wrap justify-center space-x-6 p-2">
+          {apps.map((app) => (
+            <a
+              key={app.name}
+              href={app.href}
+              className="mb-2 text-sm leading-6 text-white hover:text-gray-900"
+            >
+              <Image
+                src={app.imageSrc}
+                alt={app.imageAlt}
+                className="h-auto w-40"
+              />
+            </a>
+          ))}
+        </div>
 
 export default function About() {
   return (
