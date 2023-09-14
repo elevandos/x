@@ -71,17 +71,15 @@ export default function Example() {
               </a>
             ))}
           </div>
-          <div className="pointer-events-none hidden lg:flex lg:flex-1 lg:justify-end">
-            <Button
-              className="pointer-events-none hidden cursor-not-allowed"
-              variant="outline"
-            >
-              ÜCRETSİZ KATIL
-              <span className="ms-2" aria-hidden="false">
-                &rarr;
-              </span>
-            </Button>
-          </div>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+  <Button variant="outline">
+    ÜCRETSİZ KATIL
+    <span className="ms-2" aria-hidden="true">
+      &rarr;
+    </span>
+  </Button>
+</div>
+
         </nav>
         <Dialog
           as="div"
