@@ -488,9 +488,9 @@ const Agenda = () => {
   return (
     <section id="program" className="relative bg-boyner-cinnabar">
       <div className="mx-auto max-w-7xl overflow-hidden py-24 sm:px-6 sm:py-32 sm:pb-56 lg:px-8">
-        <h1 className="pb-10 text-center text-4xl font-extrabold text-black ">
-          PROGRAM
-        </h1>
+          <h2 className="text-center text-4xl font-extrabold tracking-tight text-black ">
+            FESTİVALİN İLHAM VEREN KONUŞMACILARI
+          </h2>
         <div className="flex w-full justify-center">
           <Tabs defaultValue={eventData[0].day} className="w-full">
             <TabsList className="grid h-auto w-full grid-cols-2">
