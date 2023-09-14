@@ -93,11 +93,11 @@ export default function About() {
             Festivale ücretsiz katılım için detaylar çok yakında burada!
              <br/> <br/>
             </p>
-            {/* <div>
+            <div>
               <h1 className=" inset-0 flex items-center justify-center text-xl font-extrabold md:text-2xl lg:text-3xl">
                 UYGULAMAYI İNDİR, ÜCRETSİZ KATIL!
               </h1>
-            </div> */}
+            </div>
             {/* <div>
               <div>
                 <div className="flex items-center justify-center">
