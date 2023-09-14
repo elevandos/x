@@ -41,8 +41,6 @@ function ResponsiveImages() {
       {/* Images for mobile screens */}
       <div className="flex flex-wrap justify-center sm:hidden">
         <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" />
-        <Image src={AppStore} alt="App Store Logo" className="mt-10" />
-        <Image src={AppGallery} alt="App Galery Logo" className="mt-10" />
       </div>
     </div>
   );
