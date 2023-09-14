@@ -5,7 +5,7 @@ import LineBg from "@/public/assets/kit/line-bg.png";
 import PhoneQRIcon from "@/public/assets/kit/phone-qr.svg";
 import TicketIcon from "@/public/assets/kit/tickets-qr.svg";
 import QRCode from "@/public/assets/kit/qr-code-1.svg";
-import GooglePlay from "@/public/assets/kit/playstore.svg";
+import GooglePlay from "@/public/assets/kit/playstore-1.svg";
 import AppStore from "@/public/assets/kit/appstore.png";
 import AppGallery from "@/public/assets/kit/huaweistore.png";
 
