@@ -27,7 +27,7 @@ function VideoContent() {
 }
 function ResponsiveImages() {
   return (
-    <div className="flex items-center justify-center">
+   <div className="flex items-center justify-center">
       {/* Images for larger screens */}
       <div className="hidden items-center justify-center gap-5 sm:flex">
         <Image
@@ -41,7 +41,7 @@ function ResponsiveImages() {
 
       {/* Images for mobile screens */}
       <div className="flex flex-wrap justify-center sm:hidden">
-        <a href="https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic">
+        <a href="BURAYA_PLAYSTORE_LINKINIZI_EKLEYIN">
           <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" />
         </a>
       </div>
