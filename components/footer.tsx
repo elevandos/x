@@ -28,7 +28,7 @@ const dialogContentStyle: React.CSSProperties = {
 };
 
 
-{/*
+
 const apps = [
   {
     name: "App Store",
@@ -42,14 +42,7 @@ const apps = [
     imageSrc: GooglePlayLogo,
     imageAlt: "Google Play",
   },
-  {
-    name: "App Gallery",
-    href: "#",
-    imageSrc: AppGalleryLogo,
-    imageAlt: "App Gallery",
-  },
 ];
-*/}
 export default function Footer() {
   return (
     <footer className="relative flex flex-col justify-between space-y-10 bg-black">
