@@ -77,7 +77,7 @@ export default function Example() {
               variant="outline"
             >
               ÜCRETSİZ KATIL
-              <span className="ms-2" aria-hidden="true">
+              <span className="ms-2" aria-hidden="false">
                 &rarr;
               </span>
             </Button>
