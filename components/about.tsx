@@ -43,10 +43,9 @@ function ResponsiveImages() {
       <div className="flex flex-wrap justify-center sm:hidden">
         <a href="https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic">
           <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" />
-        </a>
+        </a><br/><br/>
       </div> 
-     <br />
-     <br />
+
     </div>
   );
 }
