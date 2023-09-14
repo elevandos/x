@@ -98,13 +98,13 @@ export default function About() {
                 UYGULAMAYI İNDİR, ÜCRETSİZ KATIL!
               </h1>
             </div>
-            {/* <div>
+            <div>
               <div>
                 <div className="flex items-center justify-center">
                   <ResponsiveImages />
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
