@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import BoynerLogo from "@/public/boyner-logo-dark-bg.svg";
-import AppStoreLogo from "@/public/assets/kit/app-store-logo.png";
+import AppStoreLogo from "@/public/assets/kit/appstore-3.svg";
 import GooglePlayLogo from "@/public/assets/kit/playstore-3.svg";
 import AppGalleryLogo from "@/public/assets/kit/app-gallery-logo.png";
 
@@ -35,6 +35,12 @@ const apps = [
     href: "https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic",
     imageSrc: GooglePlayLogo,
     imageAlt: "Google Play",
+  },
+  {
+    name: "App Store",
+    href: "https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic",
+    imageSrc: AppStoreLogo,
+    imageAlt: "App Store",
   },
 ];
 export default function Footer() {
