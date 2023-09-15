@@ -222,24 +222,20 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
-            time: "11:00 - 18:00",
-            description: "Joma ile Zorbing Football",
+            time: "12:00 - 18:00",
+            description: "Joma ile Zorbing Football ve Dev Eller Basketbol Turnuvası",
           },
           {
-            time: "11:00 - 18:00",
-            description: "Joma ile Dev Eller Basketbol",
-          },
-          {
-            time: "11:00 - 18:00",
+            time: "12:00 - 18:00",
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
             time: "11:00 - 18:00",
-            description: "adidas ile Streetball Turnuvası",
+            description: "Body Painting",
           },
           {
-            time: "11:00 - 18:00",
-            description: "Body Painting & Tattoo",
+            time: "12:00 - 18:00",
+            description: "adidas ile Streetball Turnuvası ve Finali",
           },
         ],
       },
@@ -430,38 +426,26 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
-            time: "11:00 - 18:00",
-            description: "Joma ile Zorbing Football",
+            time: "12:00 - 18:00",
+            description: "Joma ile Zorbing Football ve Dev Eller Basketbol Turnuvası",
           },
           {
-            time: "11:00 - 18:00",
-            description: "Joma ile Dev Eller Basketbol",
-          },
-          {
-            time: "11:00 - 18:00",
+            time: "12:00 - 18:00",
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
             time: "11:00 - 18:00",
-            description: "Streetball Turnuvası",
+            description: "Body Painting",
           },
           {
-            time: "11:00 - 18:00",
-            description: "Streetball Finali",
-          },
-          {
-            time: "11:00 - 18:00",
-            description: "Body Painting & Tattoo",
-          },
-          {
-            time: "11:00 - 18:00",
-            description: "adidas ile Streetball Turnuvası",
+            time: "12:00 - 18:00",
+            description: "adidas ile Streetball Turnuvası ve Finali",
           },
           {
             time: "18:00 - 20:00",
             description: "Emu ile After Party by DJ Furkan Kozanlı & Cihan Hatipoğlu",
           },
-        ],
+          ],
       },
     ],
   },
