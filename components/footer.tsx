@@ -38,7 +38,7 @@ const apps = [
   },
   {
     name: "App Store",
-    href: "https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic",
+    href: "https://apps.apple.com/us/app/boyner-dynamic-fest/id6466177893",
     imageSrc: AppStoreLogo,
     imageAlt: "App Store",
   },
