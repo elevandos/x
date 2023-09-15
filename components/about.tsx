@@ -17,7 +17,7 @@ function VideoContent() {
         <iframe
           width="1000"
           height="500"
-          src="https://www.youtube.com/embed/jWu30m_3XkA"
+          src="https://www.youtube.com/embed/8gyr5Z-hhYU?si=LTzQnofbEa4_g3FQ"
           title="Yılın En Dinamik Festivali Çok Yakında!"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
