@@ -6,7 +6,7 @@ import PhoneQRIcon from "@/public/assets/kit/phone-qr.svg";
 import TicketIcon from "@/public/assets/kit/tickets-qr.svg";
 import QRCode from "@/public/assets/kit/qr-code-1.svg";
 import GooglePlay from "@/public/assets/kit/playstore-1.svg";
-import AppStore from "@/public/assets/kit/appstore.png";
+import AppStore from "@/public/assets/kit/appstore-1.svg";
 import AppGallery from "@/public/assets/kit/huaweistore.png";
 
 
@@ -42,7 +42,10 @@ function ResponsiveImages() {
       {/* Images for mobile screens */}
       <div className="flex flex-wrap justify-center sm:hidden">
         <a href="https://play.google.com/store/apps/details?id=tr.com.boyner.dynamic">
-          <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" /><br/><br/>
+          <Image src={GooglePlay} alt="Google Play Logo" className="mt-10" />
+        </a>
+        <a href="https://apps.apple.com/us/app/boyner-dynamic-fest/id6466177893">
+          <Image src={AppStore} alt="Google Play Logo" className="mt-10" /><br/><br/>
         </a>
       </div> 
 
