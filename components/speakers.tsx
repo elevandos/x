@@ -32,7 +32,7 @@ import {
 const people = [
   {
     name: "Aysu Türkoğlu",
-    role: "MİLLİ YÜZÜCÜ",
+    role: "ULTRA MARATON SPORCUSU",
     imageUrl: speaker3,
     bio: [
       `Kuzey Kanalı’nı yüzerek geçen en genç Türk sporcu ve ilk Türk kadın olan Milli Yüzücü Aysu Türkoğlu; 2 Mayıs 2001 tarihinde Bodrum'da dünyaya geldi. Ege Üniversitesi Spor Bilimleri Fakültesi Antrenörlük Bölümü’nde 3. Sınıf öğrencisi olarak öğrenimine devam eden milli sporcu, yüzmeye ablasından aldığı ilham ile 7 yaşında Bodrum Spor Yüzme Kulübü’nde başladı.`,
