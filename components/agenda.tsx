@@ -73,7 +73,7 @@ const eventData: DayData[] = [
             description: "21 Dakikada Ruh ve Beden Dengesi by Ece Vahapoğlu",
           },
           {
-            time: "15.00 – 15.45",
+            time: "15.00 – 16.00",
             description: "LifeClub ile Aktif Yaşam için Doğru Beslenme Yöntemleri: Her Diyet Herkes İçin Uygun mu? by Kumsal Kurucu",
           },
           {
@@ -115,7 +115,7 @@ const eventData: DayData[] = [
           },
           {
             time: "17.00 - 17.45",
-            description: "Urban Active ile Spinning by Ahmet Berkan",
+            description: "Urban Active ile Spinning by Ahmet Berkman ve Volkan Odak",
           },
         ],
       },
@@ -147,7 +147,7 @@ const eventData: DayData[] = [
             description: "Levi’s ile İleri Dönüştürülmüş Çanta Kişiselleştirme",
           },
           {
-            time: "17.15 - 17.45",
+            time: "17.15 - 18.00",
             description: "adidas ile String Art",
           },
         ],
@@ -160,7 +160,7 @@ const eventData: DayData[] = [
             description: "edding ile Mandala by Aslıhan Aksun",
           },
           {
-            time: "13.00 - 13.15",
+            time: "13.00 - 13.45",
             description: "edding ile Mandala by Aslıhan Aksun",
           },
           {
@@ -222,20 +222,28 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
+            time: "11:00 - 18:00",
+            description: "Body Painting",
+          },
+          {
             time: "12:00 - 18:00",
             description: "Joma ile Zorbing Football ve Dev Eller Basketbol Turnuvası",
+          },
+          {
+            time: "12:00 - 18:00",
+            description: "adidas ile Streetball Turnuvası ve Finali",
           },
           {
             time: "12:00 - 18:00",
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
-            time: "11:00 - 18:00",
-            description: "Body Painting",
+            time: "14:00 - 14:10",
+            description: "DansFabrika ile Dans Gösterisi",
           },
           {
-            time: "12:00 - 18:00",
-            description: "adidas ile Streetball Turnuvası ve Finali",
+            time: "16:00 – 16:10",
+            description: "DansFabrika ile Dans Gösterisi",
           },
         ],
       },
@@ -318,7 +326,7 @@ const eventData: DayData[] = [
           },
           {
             time: "16:00 - 16:45",
-            description: "Urban Active ile Spinning by Ahmet Berkan",
+            description: "Urban Active ile Spinning by Ahmet Berkman ve Volkan Odak",
           },
         ],
       },
@@ -363,7 +371,7 @@ const eventData: DayData[] = [
             description: "edding ile Mandala by Aslıhan Aksun",
           },
           {
-            time: "13.00 - 13.15",
+            time: "13.00 - 13.45",
             description: "edding ile Mandala by Aslıhan Aksun",
           },
           {
@@ -426,6 +434,10 @@ const eventData: DayData[] = [
         stageName: "Active Life",
         events: [
           {
+            time: "11:00 - 18:00",
+            description: "Body Painting",
+          },
+          {
             time: "12:00 - 18:00",
             description: "Joma ile Zorbing Football ve Dev Eller Basketbol Turnuvası",
           },
@@ -434,12 +446,16 @@ const eventData: DayData[] = [
             description: "BoardridersTR Ekibi ve DC Katkılarıyla Kaykay Workshop",
           },
           {
-            time: "11:00 - 18:00",
-            description: "Body Painting",
-          },
-          {
             time: "12:00 - 18:00",
             description: "adidas ile Streetball Turnuvası ve Finali",
+          },
+          {
+            time: "15:00 – 15:10",
+            description: "DansFabrika ile Dans Gösterisi",
+          },
+          {
+            time: "17:00  - 17:10",
+            description: "DansFabrika ile Dans Gösterisi",
           },
           {
             time: "18:00 - 20:00",
