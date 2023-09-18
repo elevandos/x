@@ -147,7 +147,7 @@ const eventData: DayData[] = [
             description: "Levi’s ile İleri Dönüştürülmüş Çanta Kişiselleştirme",
           },
           {
-            time: "17.15 - 18.00",
+            time: "17.00 - 18.00",
             description: "adidas ile String Art",
           },
         ],
