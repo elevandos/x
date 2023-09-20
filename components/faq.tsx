@@ -148,6 +148,9 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+    </section>
+  );
+};
           <div className="my-4 w-full pt-24">
             <Image className="h-full w-full" src={Flyer} alt=""></Image>
           </div> 
@@ -170,8 +173,4 @@ const FAQ = () => {
               </a>
             </h2>
           </div>
-    </section>
-  );
-};
-
 export default FAQ;
