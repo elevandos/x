@@ -115,7 +115,7 @@ const eventData: DayData[] = [
           },
           {
             time: "17.00 - 17.45",
-            description: "Urban Active ile Spinning by Ahmet Berkman ve Volkan Odak",
+            description: "Urban Active ile Spinning by Ahmet Berkman ve Mehmet Ali Yıldırım",
           },
         ],
       },
