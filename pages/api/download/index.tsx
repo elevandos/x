@@ -24,6 +24,13 @@ export default async function handler(
 
         const data = await FormData.find({}).select("-__v -_id").lean();
 
+        const dataLength = data.length;
+        if (dataLength === 0) {
+          return res
+            .status(400)
+            .json({ message: "Henüz bir form datası oluşturulmamış" });
+        }
+
         if (!data) {
           return res.status(400).json({ message: "No data found" });
         }
@@ -56,7 +63,7 @@ export default async function handler(
         );
         res.status(200).send(csv);
       } catch (error: any) {
-        res.status(400).json({ message: error.message });
+        res.status(400).json({ message: error.message, deneme: "fgfdf" });
       }
       break;
     case "POST":
@@ -68,6 +75,11 @@ export default async function handler(
           privacyPolicy: req.body.privacyPolicy,
         };
         const formData = await FormData.create(data);
+
+        if (!formData) {
+          return res.status(400).json({ message: "Data not created" });
+        }
+
         res.status(201).json({ success: true, message: "Data created" });
       } catch (error: any) {
         res.status(400).json({ message: error.message });
