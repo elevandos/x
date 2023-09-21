@@ -111,7 +111,7 @@ const eventData: DayData[] = [
           },
           {
             time: "16.00 - 16.45",
-            description: "Urban Active ile Kangoo Jumps",
+            description: "Kangoo Club Turkey ile Kangoo Jumps",
           },
           {
             time: "17.00 - 17.45",
@@ -322,7 +322,7 @@ const eventData: DayData[] = [
           },
           {
             time: "15:00 - 15:45",
-            description: "Urban Active ile Kangoo Jumps",
+            description: "Kangoo Club Turkey ile Kangoo Jumps",
           },
           {
             time: "16:00 - 16:45",
