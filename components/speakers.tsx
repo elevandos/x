@@ -227,7 +227,7 @@ const Speakers = () => {
               <Gallery />
             </div>
             <h2 className="text-center text-2xl font-extrabold tracking-tight text-white lg:text-3xl ">
-              FESTİVAL MODASINI %10 İNDİRİMLE YAŞAMAK İÇİN{" "}
+              FESTİVAL MODASINI KEŞFETMEK İÇİN{" "}
               <a
                 href="https://www.boyner.com.tr/content/dynamic-festival"
                 target="_blank"
